@@ -1,0 +1,71 @@
+"""Robustness of SCATI (with and without annotation), COMPASS (with germline frequencies) and LoPhy.
+
+Data conditions (generate/generate_benchmark.sbatch tasks 6-11, written to simulated_robust).
+Each changes one parameter of the main benchmark's default setting, 10 replicates each:
+    fgd100                    every dataset has a whole-genome duplication
+    dbl0, dbl0.25             doublet rate 0 or 0.25 (SCATI and COMPASS keep their prior of 0.08)
+    healthy0.05, healthy0.50  5% or 50% healthy cells
+    backmut20                 20% of the real SNVs are alt->ref back mutations (only SCATI models them)
+    false25, false50          25% or 50% of all loci are false (never mutated)
+Run them like the main benchmark, on the other simulation root:
+    LOPHY_CONDA_ENV=lophy SIM_ROOT=simulated_robust bash run/run_scati_slurm.sbatch --nolock
+
+Annotation errors (SCATI with annotation only) run on the main benchmark's default data. SCATI gets a copy of
+the cell annotation with some labels flipped (make_noisy_annotation.py); results go to default/rep*/SCATI/results_annot_<tag>/.
+    cont30, cont50          cancer cells labelled healthy until 30% or 50% of the healthy-labelled cells are cancer
+    h2c30, h2c50            30% or 50% of the healthy cells labelled cancer
+    cont30_h2c30, cont50_h2c50  both at once
+Run on the main root:
+    SNAKEFILE=run/Snakefile_robustness TARGET=robust_annot SIM_ROOT=simulated_data bash run/run_scati_slurm.sbatch --nolock
+"""
+include: "Snakefile_run_methods"
+
+ANNOT_LEVELS = {                      # tag: (cancer share of the healthy-labelled cells, share of healthy cells labelled cancer)
+    "cont30": (0.30, 0.00), "cont50": (0.50, 0.00),
+    "h2c30": (0.00, 0.30), "h2c50": (0.00, 0.50),
+    "cont30_h2c30": (0.30, 0.30), "cont50_h2c50": (0.50, 0.50),
+}
+ROBUST_REPS = [f"rep{i}" for i in range(int(config.get("robust_reps", 10)))]
+NOISY_ANNOTATION_SCRIPT = P(workflow.current_basedir, "..", "generate", "make_noisy_annotation.py")
+
+localrules: robust_annot
+
+
+rule robust_annot:
+    input:
+        [P(SIM, "default", r, "SCATI", f"results_annot_{t}", "done.txt") for t in ANNOT_LEVELS for r in ROBUST_REPS]
+
+
+rule scati_infer_annot:
+    input:
+        bin=SCATI_BIN,
+        data=P(SIM, "default", "{rep}", "SCATI", "data_variants.csv")
+    output:
+        P(SIM, "default", "{rep}", "SCATI", "results_annot_{tag}", "done.txt")
+    wildcard_constraints:
+        tag="|".join(ANNOT_LEVELS)
+    threads: SCATI_N_CHAINS
+    resources:
+        mem_mb=SCATI_MEM_MB,
+        mem_mb_per_cpu=SCATI_MEM_MB // SCATI_N_CHAINS,
+        runtime=SCATI_RUNTIME_MIN,
+        cpus_per_task=SCATI_N_CHAINS
+    params:
+        scati_dir=lambda wc: P(SIM, "default", wc.rep, "SCATI"),
+        outdir=lambda wc: P(SIM, "default", wc.rep, "SCATI", f"results_annot_{wc.tag}"),
+        cont=lambda wc: ANNOT_LEVELS[wc.tag][0],
+        h2c=lambda wc: ANNOT_LEVELS[wc.tag][1],
+        seed=lambda wc: int(wc.rep[3:]) + 1
+    benchmark:
+        P(SIM, "default", "{rep}", "SCATI", "results_annot_{tag}", "benchmark.tsv")
+    shell:
+        # SCATI reads <base>_variants.csv, <base>_regions.csv and <base>.cell_annotation.csv.
+        # The first two are linked to the clean data, the noisy annotation is written under the new base name.
+        "mkdir -p {params.outdir} && cd {params.scati_dir} && "
+        "ln -sf data_variants.csv data_annot_{wildcards.tag}_variants.csv && "
+        "ln -sf data_regions.csv data_annot_{wildcards.tag}_regions.csv && "
+        "{COMPARE_PYTHON} {NOISY_ANNOTATION_SCRIPT} --annotation data.cell_annotation.csv "
+        "--out data_annot_{wildcards.tag}.cell_annotation.csv --cancer_in_healthy_set {params.cont} "
+        "--healthy_as_cancer {params.h2c} --seed {params.seed} > {params.outdir}/noisy_annotation.log && "
+        "{input.bin} -i {params.scati_dir}/data_annot_{wildcards.tag} -o {params.outdir} --n_samples 1 " + SCATI_ARGS + " && "
+        "touch {output}"

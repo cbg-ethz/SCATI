@@ -1,0 +1,47 @@
+{"nodes":[
+	{
+		"name": "Node 0",
+		"parent": "-",
+		"events": []
+	},
+	{
+		"name": "Node 1",
+		"parent": "Node 0",
+		"events": [{"type":"SNV","locus":3,"affected_strand":1,"affected_allele":0},{"type":"SNV","locus":4,"affected_strand":1,"affected_allele":0},{"type":"CNA","region_indices":[12],"CNA_change":1,"affected_strand":1,"affected_strand2":-1,"aneuploidy":false,"fgd":false,"chromosome":"6"}]
+	},
+	{
+		"name": "Node 2",
+		"parent": "Node 4",
+		"events": [{"type":"CNA","region_indices":[10,11,12],"CNA_change":-1,"affected_strand":3,"affected_strand2":-1,"aneuploidy":true,"fgd":false,"chromosome":"6"},{"type":"SNV","locus":5,"affected_strand":2,"affected_allele":0}]
+	},
+	{
+		"name": "Node 3",
+		"parent": "Node 5",
+		"events": [{"type":"CNA","region_indices":[36],"CNA_change":0,"affected_strand":0,"affected_strand2":1,"aneuploidy":false,"fgd":false,"chromosome":"17"},{"type":"SNV","locus":2,"affected_strand":1,"affected_allele":1},{"type":"CNA","region_indices":[2],"CNA_change":0,"affected_strand":1,"affected_strand2":0,"aneuploidy":false,"fgd":false,"chromosome":"2"},{"type":"SNV","locus":14,"affected_strand":1,"affected_allele":1}]
+	},
+	{
+		"name": "Node 4",
+		"parent": "Node 7",
+		"events": [{"type":"CNA","region_indices":[0],"CNA_change":-1,"affected_strand":3,"affected_strand2":-1,"aneuploidy":false,"fgd":false,"chromosome":"1"},{"type":"CNA","region_indices":[47],"CNA_change":1,"affected_strand":2,"affected_strand2":-1,"aneuploidy":false,"fgd":false,"chromosome":"21"},{"type":"CNA","region_indices":[3,4,5],"CNA_change":-1,"affected_strand":1,"affected_strand2":-1,"aneuploidy":false,"fgd":false,"chromosome":"2"},{"type":"CNA","region_indices":[29],"CNA_change":-1,"affected_strand":0,"affected_strand2":-1,"aneuploidy":false,"fgd":false,"chromosome":"13"},{"type":"CNA","region_indices":[15],"CNA_change":1,"affected_strand":3,"affected_strand2":-1,"aneuploidy":true,"fgd":false,"chromosome":"9"},{"type":"CNA","region_indices":[9],"CNA_change":1,"affected_strand":2,"affected_strand2":-1,"aneuploidy":false,"fgd":false,"chromosome":"5"},{"type":"CNA","region_indices":[21],"CNA_change":-1,"affected_strand":2,"affected_strand2":-1,"aneuploidy":false,"fgd":false,"chromosome":"11"},{"type":"CNA","region_indices":[34],"CNA_change":1,"affected_strand":1,"affected_strand2":-1,"aneuploidy":false,"fgd":false,"chromosome":"16"},{"type":"CNA","region_indices":[36,37],"CNA_change":-1,"affected_strand":2,"affected_strand2":-1,"aneuploidy":false,"fgd":false,"chromosome":"17"},{"type":"CNA","region_indices":[26],"CNA_change":-1,"affected_strand":0,"affected_strand2":-1,"aneuploidy":false,"fgd":false,"chromosome":"13"},{"type":"CNA","region_indices":[8],"CNA_change":1,"affected_strand":2,"affected_strand2":-1,"aneuploidy":false,"fgd":false,"chromosome":"4"}]
+	},
+	{
+		"name": "Node 5",
+		"parent": "Node 1",
+		"events": [{"type":"CNA","region_indices":[12],"CNA_change":1,"affected_strand":0,"affected_strand2":-1,"aneuploidy":false,"fgd":false,"chromosome":"6"}]
+	},
+	{
+		"name": "Node 6",
+		"parent": "Node 4",
+		"events": [{"type":"CNA","region_indices":[10,11,12],"CNA_change":-1,"affected_strand":0,"affected_strand2":-1,"aneuploidy":false,"fgd":false,"chromosome":"6"}]
+	},
+	{
+		"name": "Node 7",
+		"parent": "Node 5",
+		"events": [{"type":"CNA","region_indices":[],"CNA_change":1,"affected_strand":-1,"affected_strand2":-1,"aneuploidy":false,"fgd":true,"chromosome":""}]
+	},
+	{
+		"name": "Node 8",
+		"parent": "Node 2",
+		"events": [{"type":"CNA","region_indices":[12],"CNA_change":0,"affected_strand":1,"affected_strand2":2,"aneuploidy":false,"fgd":false,"chromosome":"6"}]
+	}
+]}

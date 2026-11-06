@@ -1,0 +1,1 @@
+{"chain": 3, "seconds": 815.8132199, "mcmc_steps": 200000, "steps_per_second": 245.1541543, "log_score": -522015.6944, "n_nodes": 6, "cna_likelihood_calls": 100467900, "cna_likelihood_cache_misses": 320811, "cna_cache_hit_rate": 0.9968068308, "cache_budget_gb": 8, "peak_cache_gb": 0.2965608388, "cache_clears": {}}

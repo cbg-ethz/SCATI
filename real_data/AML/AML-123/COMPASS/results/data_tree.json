@@ -1,0 +1,40 @@
+{
+"nodes":[
+	{
+		"name": "Node 0",
+		"parent": "-",
+		"SNV": ["chr13.28602226.AAG_A(FLT3)","chr2.198267770.G_GAA(SF3B1)","chr7.148504716.AG_A(EZH2)"],
+		"CNA": ["CNLOH SF3B1_c5"]
+	},
+	{
+		"name": "Node 1",
+		"parent": "Node 5",
+		"SNV": ["chr17.29563075.G_GT(NF1)"],
+		"CNA": []
+	},
+	{
+		"name": "Node 2",
+		"parent": "Node 0",
+		"SNV": ["chr4.106157248.C_CAA(TET2)","chr21.44524456.G_A(U2AF1)"],
+		"CNA": []
+	},
+	{
+		"name": "Node 3",
+		"parent": "Node 2",
+		"SNV": [],
+		"CNA": ["CNLOH EZH2_c1"]
+	},
+	{
+		"name": "Node 4",
+		"parent": "Node 0",
+		"SNV": [],
+		"CNA": ["CNLOH EZH2_c1"]
+	},
+	{
+		"name": "Node 5",
+		"parent": "Node 3",
+		"SNV": [],
+		"CNA": ["CNLOH FLT3_c2"]
+	}
+]
+}

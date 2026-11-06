@@ -1,0 +1,34 @@
+digraph G{
+node [color=dimgray fontsize=24 fontcolor=black fontname=Helvetica penwidth=5];
+0 -> 1 [color=dimgray penwidth=4 weight=2];
+0 -> 2 [color=dimgray penwidth=4 weight=2];
+1 -> 3 [color=dimgray penwidth=4 weight=2];
+3 -> 4 [color=dimgray penwidth=4 weight=2];
+2 -> 5 [color=dimgray penwidth=4 weight=2];
+2 -> 6 [color=dimgray penwidth=4 weight=2];
+5 -> 7 [color=dimgray penwidth=4 weight=2];
+0[label=<chr2.198266943.C_T(SF3B1)(chr2)<br/>chr6.40116264.T_G(chr6)(chr6)<br/>chr7.148504716.AG_A(EZH2)(chr7)<br/>chr7.148504854.A_AGACTT(EZH2)(chr7)<br/>chr10.106721610.G_A(chr10)(chr10)<br/>chr17.7578115.T_C(TP53)(chr17)<br/>chr17.7578146.T_C(TP53)(chr17)<br/>chr20.31022959.T_C(ASXL1)(chr20)<br/><B>CNLOH SF3B1_1:REF (chr2)</B><br/><B>CNLOH chr6_40116264:REF (chr6)</B><br/><B>CNLOH chr10_106721610:REF (chr10)</B><br/><B>CNLOH ASXL1_2_a1:REF (chr20)</B><br/>>];
+1[label=<chr4.55599436.T_C(KIT)(chr4)<br/>chr5.170837457.A_G(NPM1)(chr5)<br/>chr6.17076840.C_A(chr6)(chr6)<br/>chr11.32414333.G_T(WT1)(chr11)<br/><B>CNLOH KIT_1:REF (chr4)</B><br/><B>CNLOH chr6_17076840:REF (chr6)</B><br/><B>CNLOH WT1_1_a2:REF (chr11)</B><br/><B>CNLOH TP53_1:REF,ALT (chr17)</B><br/>>];
+2[label=<chr13.28592546.T_C(FLT3)(chr13)<br/>chr13.28608283.G_A(FLT3)(chr13)<br/>chr16.8569820.G_A(chr16)(chr16)<br/>chr16.55770629.C_T(chr16)(chr16)<br/>chr21.44524290.A_C(U2AF1)(chr21)<br/><B>CNLOH chr16_8569820:REF (chr16)</B><br/>>];
+3[label=<chr2.25457243.G_A(DNMT3A)(chr2)<br/>chr2.209113113.G_A(IDH1)(chr2)<br/>chr21.36252865.C_T(RUNX1)(chr21)<br/>>];
+4[label=<<B>CNLOH EZH2_1:REF,REF (chr7)</B><br/>>];
+5[label=<<B>CNLOH EZH2_1:REF,REF (chr7)</B><br/>>];
+6[label=<<B>CNLOH EZH2_1:ALT,REF (chr7)</B><br/>>];
+7[label=<<B>CNLOH TP53_1:ALT,REF (chr17)</B><br/>>];
+0 -> 8 [dir=none style=dashed weight=1 penwidth=5 color=lightcoral];
+1 -> 9 [dir=none style=dashed weight=1 penwidth=5 color=skyblue3];
+2 -> 10 [dir=none style=dashed weight=1 penwidth=5 color=sandybrown];
+3 -> 11 [dir=none style=dashed weight=1 penwidth=5 color=paleturquoise3];
+4 -> 12 [dir=none style=dashed weight=1 penwidth=5 color=thistle];
+5 -> 13 [dir=none style=dashed weight=1 penwidth=5 color=darkolivegreen3];
+6 -> 14 [dir=none style=dashed weight=1 penwidth=5 color=lightpink];
+7 -> 15 [dir=none style=dashed weight=1 penwidth=5 color=mediumpurple];
+8[label="0 cells\n0\%" style = filled width=0 height=0 color=lightcoral];
+9[label="30 cells\n1\%" style = filled width=0.350134 height=0.350134 color=skyblue3];
+10[label="0 cells\n0\%" style = filled width=0 height=0 color=sandybrown];
+11[label="37 cells\n1\%" style = filled width=0.388844 height=0.388844 color=paleturquoise3];
+12[label="718 cells\n26\%" style = filled width=1.71292 height=1.71292 color=thistle];
+13[label="1790 cells\n66\%" style = filled width=2.70459 height=2.70459 color=darkolivegreen3];
+14[label="84 cells\n3\%" style = filled width=0.585887 height=0.585887 color=lightpink];
+15[label="60 cells\n2\%" style = filled width=0.495165 height=0.495165 color=mediumpurple];
+}

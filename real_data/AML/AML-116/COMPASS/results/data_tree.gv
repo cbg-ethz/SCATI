@@ -1,0 +1,34 @@
+digraph G{
+node [color=dimgray fontsize=24 fontcolor=black fontname=Helvetica penwidth=5];
+2 -> 1 [color=dimgray penwidth=4 weight=2];
+0 -> 2 [color=dimgray penwidth=4 weight=2];
+2 -> 3 [color=dimgray penwidth=4 weight=2];
+0 -> 4 [color=dimgray penwidth=4 weight=2];
+2 -> 5 [color=dimgray penwidth=4 weight=2];
+2 -> 6 [color=dimgray penwidth=4 weight=2];
+2 -> 7 [color=dimgray penwidth=4 weight=2];
+0[label=<chr17.29563076.T_TG(NF1)(chr17)<br/><B>CNLOH NF1_c17:REF (chr17)</B><br/>>];
+1[label=<<B>Loss KRAS_c1:REF (chr12)</B><br/>>];
+2[label=<<B>Loss TP53_c5 (chr17)</B><br/>>];
+3[label=<chr4.106158237.T_TA(TET2)(chr4)<br/>chr4.106164778.C_T(TET2)(chr4)<br/>>];
+4[label=<<B>Gain TP53_c5 (chr17)</B><br/>>];
+5[label=<chr12.25378716.GA_G(KRAS)(chr12)<br/><B>Gain KRAS_c1:REF (chr12)</B><br/>>];
+6[label=<chr20.31022713.A_G(ASXL1)(chr20)<br/>>];
+7[label=<chr17.29562734.C_A(NF1)(chr17)<br/>>];
+0 -> 8 [dir=none style=dashed weight=1 penwidth=5 color=lightcoral];
+1 -> 9 [dir=none style=dashed weight=1 penwidth=5 color=skyblue3];
+2 -> 10 [dir=none style=dashed weight=1 penwidth=5 color=sandybrown];
+3 -> 11 [dir=none style=dashed weight=1 penwidth=5 color=paleturquoise3];
+4 -> 12 [dir=none style=dashed weight=1 penwidth=5 color=thistle];
+5 -> 13 [dir=none style=dashed weight=1 penwidth=5 color=darkolivegreen3];
+6 -> 14 [dir=none style=dashed weight=1 penwidth=5 color=lightpink];
+7 -> 15 [dir=none style=dashed weight=1 penwidth=5 color=mediumpurple];
+8[label="0 cells\n0\%" style = filled width=0 height=0 color=lightcoral];
+9[label="326 cells\n25\%" style = filled width=1.65403 height=1.65403 color=skyblue3];
+10[label="150 cells\n11\%" style = filled width=1.12197 height=1.12197 color=sandybrown];
+11[label="385 cells\n29\%" style = filled width=1.79748 height=1.79748 color=paleturquoise3];
+12[label="178 cells\n13\%" style = filled width=1.22221 height=1.22221 color=thistle];
+13[label="144 cells\n11\%" style = filled width=1.0993 height=1.0993 color=darkolivegreen3];
+14[label="38 cells\n3\%" style = filled width=0.564711 height=0.564711 color=lightpink];
+15[label="103 cells\n8\%" style = filled width=0.929723 height=0.929723 color=mediumpurple];
+}

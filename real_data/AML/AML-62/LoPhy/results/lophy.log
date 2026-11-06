@@ -1,0 +1,23 @@
+Step 1: build SNV only tree for sample 0
+3: 3995
+0: 0
+parents
+[29,29,0,29,29,29,29,29,29,29,29,29,29]
+
+
+
+
+Step 2: growing tree with data from sample 0
+
+
+Time elapsed: 23855.3 ms
+[write_all_results] checkpoint A: graph_strings built, num_clones=14
+[write_all_results] checkpoint B: attachment_string built, n_cells=3995
+[write_all_results] checkpoint C: indices_to_keep.size()=2 graph_strings.size()=1
+[write_all_results] checkpoint D: about to call CNAs_to_matrices, A=14x50 B=14x13
+[write_all_results] checkpoint E: CNAs_to_matrices returned
+[write_all_results] checkpoint F: extract_rows returned, A_prime.size()=2 B_prime.size()=2
+[write_all_results] checkpoint G: genotypes built, about to call adjust_to_contiguous cell_assignments.size()=3995
+[write_all_results] checkpoint H: adjust_to_contiguous returned, size=3995
+[write_out_file] target: real_data/AML/AML-62/LoPhy/results/data_0.gv (absolute: real_data/AML/AML-62/LoPhy/results/data_0.gv)
+[write_out_file] bytes intended: 243737

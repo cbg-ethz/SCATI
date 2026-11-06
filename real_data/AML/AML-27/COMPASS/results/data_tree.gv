@@ -1,0 +1,34 @@
+digraph G{
+node [color=dimgray fontsize=24 fontcolor=black fontname=Helvetica penwidth=5];
+7 -> 1 [color=dimgray penwidth=4 weight=2];
+0 -> 2 [color=dimgray penwidth=4 weight=2];
+7 -> 3 [color=dimgray penwidth=4 weight=2];
+3 -> 4 [color=dimgray penwidth=4 weight=2];
+3 -> 5 [color=dimgray penwidth=4 weight=2];
+0 -> 6 [color=dimgray penwidth=4 weight=2];
+2 -> 7 [color=dimgray penwidth=4 weight=2];
+0[label=<chr2.198266943.C_T(SF3B1)(chr2)<br/>chr7.148504716.AG_A(EZH2)(chr7)<br/>chr7.148504854.A_AGACTT(EZH2)(chr7)<br/>chr16.55770565.G_T(chr16)(chr16)<br/>chr16.55770601.T_A(chr16)(chr16)<br/>chr17.7578115.T_C(TP53)(chr17)<br/>chr20.31022959.T_C(ASXL1)(chr20)<br/><B>CNLOH SF3B1_1:REF (chr2)</B><br/><B>CNLOH TP53_1:REF,REF (chr17)</B><br/><B>CNLOH ASXL1_2_a1:REF (chr20)</B><br/>>];
+1[label=<<B>CNLOH EZH2_1:ALT,REF (chr7)</B><br/>>];
+2[label=<chr2.25457243.G_A(DNMT3A)(chr2)<br/>>];
+3[label=<<B>CNLOH EZH2_1:REF,REF (chr7)</B><br/>>];
+4[label=<<B>Loss chr16_55770629:ALT,ALT (chr16)</B><br/>>];
+5[label=<<B>Loss chr16_55770629:REF,REF (chr16)</B><br/>>];
+6[label=<<B>CNLOH EZH2_1:REF,REF (chr7)</B><br/>>];
+7[label=<chr5.170837543.C_CTCTG(NPM1)(chr5)<br/>chr13.28608273.._TGGAAACTCCCATTTGAGATCATATTCATATTCTCTGAAATCAA(FLT3)(chr13)<br/>chr17.7578275.G_A(TP53)(chr17)<br/>>];
+0 -> 8 [dir=none style=dashed weight=1 penwidth=5 color=lightcoral];
+1 -> 9 [dir=none style=dashed weight=1 penwidth=5 color=skyblue3];
+2 -> 10 [dir=none style=dashed weight=1 penwidth=5 color=sandybrown];
+3 -> 11 [dir=none style=dashed weight=1 penwidth=5 color=paleturquoise3];
+4 -> 12 [dir=none style=dashed weight=1 penwidth=5 color=thistle];
+5 -> 13 [dir=none style=dashed weight=1 penwidth=5 color=darkolivegreen3];
+6 -> 14 [dir=none style=dashed weight=1 penwidth=5 color=lightpink];
+7 -> 15 [dir=none style=dashed weight=1 penwidth=5 color=mediumpurple];
+8[label="16 cells\n0\%" style = filled width=0.224129 height=0.224129 color=lightcoral];
+9[label="162 cells\n5\%" style = filled width=0.713175 height=0.713175 color=skyblue3];
+10[label="111 cells\n3\%" style = filled width=0.590337 height=0.590337 color=sandybrown];
+11[label="2670 cells\n75\%" style = filled width=2.8953 height=2.8953 color=paleturquoise3];
+12[label="171 cells\n5\%" style = filled width=0.732717 height=0.732717 color=thistle];
+13[label="129 cells\n4\%" style = filled width=0.636405 height=0.636405 color=darkolivegreen3];
+14[label="280 cells\n8\%" style = filled width=0.9376 height=0.9376 color=lightpink];
+15[label="0 cells\n0\%" style = filled width=0 height=0 color=mediumpurple];
+}

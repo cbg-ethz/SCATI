@@ -1,0 +1,9 @@
+node	chr4.106158237.T_TA(TET2)	chr4.106164778.C_T(TET2)	chr12.25378716.GA_G(KRAS)	chr17.29562734.C_A(NF1)	chr17.29563076.T_TG(NF1)	chr20.31022713.A_G(ASXL1)
+Node 0	0	0	0	0	2	0
+Node 1	0	0	0	0	2	0
+Node 2	0	0	0	0	2	0
+Node 3	1	1	0	0	2	0
+Node 4	0	0	0	0	2	0
+Node 5	0	0	1	0	2	0
+Node 6	0	0	0	0	2	1
+Node 7	0	0	0	1	2	0

@@ -1,0 +1,7 @@
+Step 1: build SNV only tree for sample 0
+19: 1964
+4: 845
+0: 0
+parents
+[54,0,54,2,54,54,52,52,52,52,52,52,52,52,54,52,69,69,2,69,52,69,52,54,69]
+UNCAUGHT EXCEPTION: Data likely has 100% purity and some cells likely have no common ancestor

@@ -1,0 +1,1210 @@
+No burn-in provided. Using half chain length.
+Using filtered variants file: real_data/AML/AML-123/SCATI/AML-123_variants_filtered.csv
+Using filtered regions file: real_data/AML/AML-123/SCATI/AML-123_regions_filtered.csv
+Output directory already exists: real_data/AML/AML-123/SCATI/results
+Starting 4 MCMC chains in parallel
+Chain 0: Start tree inference.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c11, BCOR_c7. Region weight estimates for these regions may be unreliable.
+Chain 3: Start tree inference.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c11, BCOR_c7. Region weight estimates for these regions may be unreliable.
+Chain 2: Start tree inference.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c11, BCOR_c7. Region weight estimates for these regions may be unreliable.
+Chain 1: Start tree inference.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c11, BCOR_c7. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 2582 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 2582 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 2582 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c13, BCOR_c15, BCOR_c21, BCOR_c6, BCOR_c7. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 2582 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 1616.15 effective soft-root-attached cells.
+Step 1000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 329.977 effective soft-root-attached cells.
+Step 1000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 132.856 effective soft-root-attached cells.
+Step 1000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c13, BCOR_c15, BCOR_c21, BCOR_c6, BCOR_c7. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 150.134 effective soft-root-attached cells.
+Step 2000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1315.28 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 126.918 effective soft-root-attached cells.
+Step 2000: periodic soft-root-attachment parameter refit.
+Step 2000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1234.64 effective soft-root-attached cells.
+Step 1000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c13, BCOR_c15, BCOR_c21, BCOR_c6, BCOR_c7. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 435.793 effective soft-root-attached cells.
+Step 3000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 126.72 effective soft-root-attached cells.
+Step 3000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 662.235 effective soft-root-attached cells.
+Step 3000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c13, BCOR_c15, BCOR_c21, BCOR_c6, BCOR_c7. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 402.848 effective soft-root-attached cells.
+Step 4000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1322.16 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 126.695 effective soft-root-attached cells.
+Step 4000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Step 2000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c13, BCOR_c15, BCOR_c21, BCOR_c6, BCOR_c7. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 631.622 effective soft-root-attached cells.
+Step 4000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 394.247 effective soft-root-attached cells.
+Step 5000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 126.709 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 5000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c13, BCOR_c15, BCOR_c21, BCOR_c6, BCOR_c7. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 392.453 effective soft-root-attached cells.
+Step 6000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 623.714 effective soft-root-attached cells.
+Step 5000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 126.693 effective soft-root-attached cells.
+Step 6000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 664.527 effective soft-root-attached cells.
+Step 3000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c13, BCOR_c15, BCOR_c17, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c3, BCOR_c6, BCOR_c7. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 391.94 effective soft-root-attached cells.
+Step 7000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 635.1 effective soft-root-attached cells.
+Step 7000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 624.923 effective soft-root-attached cells.
+Step 6000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c13, BCOR_c15, BCOR_c17, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c3, BCOR_c6, BCOR_c7. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 391.784 effective soft-root-attached cells.
+Step 8000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 710.945 effective soft-root-attached cells.
+Step 8000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, DNMT3A_c4, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 625.034 effective soft-root-attached cells.
+Step 7000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 633.732 effective soft-root-attached cells.
+Step 4000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 374.362 effective soft-root-attached cells.
+Step 9000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1454.15 effective soft-root-attached cells.
+Step 9000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, DNMT3A_c4, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 411.488 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 8000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 367.435 effective soft-root-attached cells.
+Step 10000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 909.623 effective soft-root-attached cells.
+Step 10000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 625.32 effective soft-root-attached cells.
+Step 5000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, DNMT3A_c4, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 364.875 effective soft-root-attached cells.
+Step 11000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 261.358 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 9000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 457.626 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, DNMT3A_c4, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Step 11000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 626.3 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 363.046 effective soft-root-attached cells.
+Step 12000: periodic soft-root-attachment parameter refit.
+Step 6000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 227.881 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 10000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 398.275 effective soft-root-attached cells.
+Step 13000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 712.864 effective soft-root-attached cells.
+Step 12000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 624.644 effective soft-root-attached cells.
+Step 7000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 408.276 effective soft-root-attached cells.
+Step 14000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 424.796 effective soft-root-attached cells.
+Step 11000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 730.93 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 412.079 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 624.243 effective soft-root-attached cells.
+Step 13000: periodic soft-root-attachment parameter refit.
+Step 15000: periodic soft-root-attachment parameter refit.
+Step 8000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 413.556 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 256.943 effective soft-root-attached cells.
+Step 12000: periodic soft-root-attachment parameter refit.
+Step 16000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 624.411 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 710.309 effective soft-root-attached cells.
+Step 14000: periodic soft-root-attachment parameter refit.
+Step 9000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 413.944 effective soft-root-attached cells.
+Step 17000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 529.145 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 13000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 414.154 effective soft-root-attached cells.
+Step 18000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 361.895 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 624.391 effective soft-root-attached cells.
+Step 15000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Step 10000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 414.342 effective soft-root-attached cells.
+Step 19000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 563.238 effective soft-root-attached cells.
+Step 14000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 414.257 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 20000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 622.393 effective soft-root-attached cells.
+Step 11000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 672.804 effective soft-root-attached cells.
+Step 16000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 414.091 effective soft-root-attached cells.
+Step 21000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 559.317 effective soft-root-attached cells.
+Step 15000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 625.084 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 12000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 414.221 effective soft-root-attached cells.
+Step 22000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 641.751 effective soft-root-attached cells.
+Step 17000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 414.215 effective soft-root-attached cells.
+Step 23000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 479.972 effective soft-root-attached cells.
+Step 16000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 624.263 effective soft-root-attached cells.
+Step 13000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 414.248 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 699.85 effective soft-root-attached cells.
+Step 24000: periodic soft-root-attachment parameter refit.
+Step 18000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 624.052 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 414.227 effective soft-root-attached cells.
+Step 14000: periodic soft-root-attachment parameter refit.
+Step 25000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 633.774 effective soft-root-attached cells.
+Step 17000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 729.992 effective soft-root-attached cells.
+Step 19000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 414.243 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 26000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 622.154 effective soft-root-attached cells.
+Step 15000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 595.181 effective soft-root-attached cells.
+Step 18000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 414.257 effective soft-root-attached cells.
+Step 27000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1060.18 effective soft-root-attached cells.
+Step 20000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 414.302 effective soft-root-attached cells.
+Step 28000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 625.523 effective soft-root-attached cells.
+Step 16000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 581.539 effective soft-root-attached cells.
+Step 19000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 414.118 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1185.06 effective soft-root-attached cells.
+Step 29000: periodic soft-root-attachment parameter refit.
+Step 21000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 615.09 effective soft-root-attached cells.
+Step 17000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 576.341 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 413.61 effective soft-root-attached cells.
+Step 20000: periodic soft-root-attachment parameter refit.
+Step 30000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1231.19 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 413.407 effective soft-root-attached cells.
+Step 22000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 216.707 effective soft-root-attached cells.
+Step 31000: periodic soft-root-attachment parameter refit.
+Step 18000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 573.574 effective soft-root-attached cells.
+Step 21000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 413.313 effective soft-root-attached cells.
+Step 32000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1245.85 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 219.659 effective soft-root-attached cells.
+Step 23000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 19000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 413.304 effective soft-root-attached cells.
+Step 33000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 569.544 effective soft-root-attached cells.
+Step 22000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 413.24 effective soft-root-attached cells.
+Step 34000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1247.72 effective soft-root-attached cells.
+Step 24000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 170.741 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 568.593 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 413.273 effective soft-root-attached cells.
+Step 20000: periodic soft-root-attachment parameter refit.
+Step 23000: periodic soft-root-attachment parameter refit.
+Step 35000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 413.28 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 36000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1245.72 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 567.385 effective soft-root-attached cells.
+Step 25000: periodic soft-root-attachment parameter refit.
+Step 24000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 170.194 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 413.288 effective soft-root-attached cells.
+Step 37000: periodic soft-root-attachment parameter refit.
+Step 21000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 413.288 effective soft-root-attached cells.
+Step 38000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 567.388 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 1242.61 effective soft-root-attached cells.
+Step 25000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 26000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 482.608 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 413.282 effective soft-root-attached cells.
+Step 39000: periodic soft-root-attachment parameter refit.
+Step 22000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 413.268 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 1240.72 effective soft-root-attached cells.
+Step 40000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 567.509 effective soft-root-attached cells.
+Step 27000: periodic soft-root-attachment parameter refit.
+Step 26000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 413.369 effective soft-root-attached cells.
+Step 41000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1314.65 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 23000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 567.486 effective soft-root-attached cells.
+Step 27000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1236.95 effective soft-root-attached cells.
+Step 28000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 413.321 effective soft-root-attached cells.
+Step 42000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 413.235 effective soft-root-attached cells.
+Step 43000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 567.808 effective soft-root-attached cells.
+Step 28000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1240.26 effective soft-root-attached cells.
+Step 29000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1252.54 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 413.284 effective soft-root-attached cells.
+Step 44000: periodic soft-root-attachment parameter refit.
+Step 24000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 413.294 effective soft-root-attached cells.
+Step 45000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 567.635 effective soft-root-attached cells.
+Step 29000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1240.78 effective soft-root-attached cells.
+Step 30000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 413.29 effective soft-root-attached cells.
+Step 46000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1259.6 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Step 25000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 567.467 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 413.288 effective soft-root-attached cells.
+Step 47000: periodic soft-root-attachment parameter refit.
+Step 30000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1240.83 effective soft-root-attached cells.
+Step 31000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 413.111 effective soft-root-attached cells.
+Step 48000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 567.241 effective soft-root-attached cells.
+Step 31000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 413.224 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 1240.37 effective soft-root-attached cells.
+Step 49000: periodic soft-root-attachment parameter refit.
+Step 32000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1238.21 effective soft-root-attached cells.
+Step 26000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 413.418 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 50000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 567.427 effective soft-root-attached cells.
+Step 32000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1240.76 effective soft-root-attached cells.
+Step 33000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 413.402 effective soft-root-attached cells.
+Step 51000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1263.35 effective soft-root-attached cells.
+Step 27000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 413.234 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 567.617 effective soft-root-attached cells.
+Step 52000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 33000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1240.95 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Step 34000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 413.282 effective soft-root-attached cells.
+Step 53000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 567.528 effective soft-root-attached cells.
+Step 34000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 413.195 effective soft-root-attached cells.
+Step 54000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1241.41 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 1265.63 effective soft-root-attached cells.
+Step 35000: periodic soft-root-attachment parameter refit.
+Step 28000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 413.275 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 55000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 472.572 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Step 35000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 413.293 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 1241.57 effective soft-root-attached cells.
+Step 56000: periodic soft-root-attachment parameter refit.
+Step 36000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 413.272 effective soft-root-attached cells.
+Step 57000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1266.53 effective soft-root-attached cells.
+Step 29000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 494.495 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 36000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1241.77 effective soft-root-attached cells.
+Step 37000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 419.701 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 58000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 499.54 effective soft-root-attached cells.
+Step 37000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1241.77 effective soft-root-attached cells.
+Step 38000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1269.55 effective soft-root-attached cells.
+Step 30000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 419.421 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 59000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 493.769 effective soft-root-attached cells.
+Step 38000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1242.15 effective soft-root-attached cells.
+Step 39000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 419.252 effective soft-root-attached cells.
+Step 60000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1268.48 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 497.302 effective soft-root-attached cells.
+Step 31000: periodic soft-root-attachment parameter refit.
+Step 39000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1241.97 effective soft-root-attached cells.
+Step 40000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 419.438 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 61000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 493.94 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 40000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1241.88 effective soft-root-attached cells.
+Step 41000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1267.92 effective soft-root-attached cells.
+Step 32000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 419.476 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 497.976 effective soft-root-attached cells.
+Step 62000: periodic soft-root-attachment parameter refit.
+Step 41000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1241.34 effective soft-root-attached cells.
+Step 42000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1267.42 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 419.496 effective soft-root-attached cells.
+Step 63000: periodic soft-root-attachment parameter refit.
+Step 33000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 470.897 effective soft-root-attached cells.
+Step 42000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1241.71 effective soft-root-attached cells.
+Step 43000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 419.567 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 64000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 448.809 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 1241.15 effective soft-root-attached cells.
+Step 43000: periodic soft-root-attachment parameter refit.
+Step 44000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1262.68 effective soft-root-attached cells.
+Step 34000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 419.501 effective soft-root-attached cells.
+Step 65000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1241.76 effective soft-root-attached cells.
+Step 45000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 444.602 effective soft-root-attached cells.
+Step 44000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1260.42 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 35000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 419.483 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 66000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1242.57 effective soft-root-attached cells.
+Step 46000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 447.073 effective soft-root-attached cells.
+Step 45000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1242.11 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 419.478 effective soft-root-attached cells.
+Step 47000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 67000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 450.13 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 1257.76 effective soft-root-attached cells.
+Step 46000: periodic soft-root-attachment parameter refit.
+Step 36000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1241.88 effective soft-root-attached cells.
+Step 48000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 418.175 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 68000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 454.792 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 47000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1256.57 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 37000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1241.96 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Step 49000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 418.135 effective soft-root-attached cells.
+Step 69000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 447.752 effective soft-root-attached cells.
+Step 48000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1241.89 effective soft-root-attached cells.
+Step 50000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1255.74 effective soft-root-attached cells.
+Step 38000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 417.985 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 70000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 443.237 effective soft-root-attached cells.
+Step 49000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1242.07 effective soft-root-attached cells.
+Step 51000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 418.061 effective soft-root-attached cells.
+Step 71000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 449.619 effective soft-root-attached cells.
+Step 50000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1255.28 effective soft-root-attached cells.
+Step 39000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1242.04 effective soft-root-attached cells.
+Step 52000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 417.893 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 72000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 451.996 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 1242.06 effective soft-root-attached cells.
+Step 51000: periodic soft-root-attachment parameter refit.
+Step 53000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1256.03 effective soft-root-attached cells.
+Step 40000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 417.993 effective soft-root-attached cells.
+Step 73000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1241.85 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 448.195 effective soft-root-attached cells.
+Step 54000: periodic soft-root-attachment parameter refit.
+Step 52000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1256 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 417.969 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 1241.97 effective soft-root-attached cells.
+Step 41000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 450.024 effective soft-root-attached cells.
+Step 55000: periodic soft-root-attachment parameter refit.
+Step 74000: periodic soft-root-attachment parameter refit.
+Step 53000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1241.7 effective soft-root-attached cells.
+Step 56000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 417.997 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 75000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 447.143 effective soft-root-attached cells.
+Step 54000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1253.9 effective soft-root-attached cells.
+Step 42000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1242.59 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 57000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 417.993 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 450.239 effective soft-root-attached cells.
+Step 76000: periodic soft-root-attachment parameter refit.
+Step 55000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1242.16 effective soft-root-attached cells.
+Step 58000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1251.56 effective soft-root-attached cells.
+Step 43000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 417.972 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 447.041 effective soft-root-attached cells.
+Step 56000: periodic soft-root-attachment parameter refit.
+Step 77000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1240.44 effective soft-root-attached cells.
+Step 59000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 418.137 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 450.058 effective soft-root-attached cells.
+Step 78000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1250.55 effective soft-root-attached cells.
+Step 57000: periodic soft-root-attachment parameter refit.
+Step 44000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1240.45 effective soft-root-attached cells.
+Step 60000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 446.937 effective soft-root-attached cells.
+Step 58000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 417.892 effective soft-root-attached cells.
+Step 79000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1250.5 effective soft-root-attached cells.
+Step 45000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1238.52 effective soft-root-attached cells.
+Step 61000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 449.831 effective soft-root-attached cells.
+Step 59000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 417.835 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 80000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1237.75 effective soft-root-attached cells.
+Step 62000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1249.9 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 46000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 447.163 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Step 60000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 417.953 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 81000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1237.48 effective soft-root-attached cells.
+Step 63000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1248.35 effective soft-root-attached cells.
+Step 47000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 450.779 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 61000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 418.002 effective soft-root-attached cells.
+Step 82000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1237.26 effective soft-root-attached cells.
+Step 64000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1247.58 effective soft-root-attached cells.
+Step 48000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 418.132 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 1237.63 effective soft-root-attached cells.
+Step 83000: periodic soft-root-attachment parameter refit.
+Step 65000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 447.943 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 62000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1247.33 effective soft-root-attached cells.
+Step 49000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1237.63 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 418.098 effective soft-root-attached cells.
+Step 66000: periodic soft-root-attachment parameter refit.
+Step 84000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1247.43 effective soft-root-attached cells.
+Step 50000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 450.295 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 63000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1237.81 effective soft-root-attached cells.
+Step 67000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 418.09 effective soft-root-attached cells.
+Step 85000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1246.85 effective soft-root-attached cells.
+Step 51000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1237.45 effective soft-root-attached cells.
+Step 68000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 446.918 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Step 64000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 417.98 effective soft-root-attached cells.
+Step 86000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1247 effective soft-root-attached cells.
+Step 52000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1237.97 effective soft-root-attached cells.
+Step 69000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 450.22 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 418.05 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 1246.26 effective soft-root-attached cells.
+Step 65000: periodic soft-root-attachment parameter refit.
+Step 87000: periodic soft-root-attachment parameter refit.
+Step 53000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1237.62 effective soft-root-attached cells.
+Step 70000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1246.19 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 54000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 417.966 effective soft-root-attached cells.
+Step 88000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 446.726 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 1237.62 effective soft-root-attached cells.
+Step 71000: periodic soft-root-attachment parameter refit.
+Step 66000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1246.01 effective soft-root-attached cells.
+Step 55000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 418.108 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 1237.48 effective soft-root-attached cells.
+Step 72000: periodic soft-root-attachment parameter refit.
+Step 89000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 450.545 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 1245.21 effective soft-root-attached cells.
+Step 67000: periodic soft-root-attachment parameter refit.
+Step 56000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1237.5 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Step 73000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 418.12 effective soft-root-attached cells.
+Step 90000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1244.99 effective soft-root-attached cells.
+Step 57000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 447.622 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 1237.4 effective soft-root-attached cells.
+Step 68000: periodic soft-root-attachment parameter refit.
+Step 74000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 417.712 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 91000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1245.47 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 58000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1237.46 effective soft-root-attached cells.
+Step 75000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 450.864 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 417.923 effective soft-root-attached cells.
+Step 69000: periodic soft-root-attachment parameter refit.
+Step 92000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1244.92 effective soft-root-attached cells.
+Step 59000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1237.67 effective soft-root-attached cells.
+Step 76000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 417.977 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 1244.76 effective soft-root-attached cells.
+Step 93000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 60000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1237.61 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 447.969 effective soft-root-attached cells.
+Step 77000: periodic soft-root-attachment parameter refit.
+Step 70000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1244.41 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 417.872 effective soft-root-attached cells.
+Step 61000: periodic soft-root-attachment parameter refit.
+Step 94000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1237.76 effective soft-root-attached cells.
+Step 78000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 450.57 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 71000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1244.98 effective soft-root-attached cells.
+Step 62000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1237.39 effective soft-root-attached cells.
+Step 79000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 417.977 effective soft-root-attached cells.
+Step 95000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1244.63 effective soft-root-attached cells.
+Step 63000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1237.59 effective soft-root-attached cells.
+Step 80000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 446.672 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 418.132 effective soft-root-attached cells.
+Step 72000: periodic soft-root-attachment parameter refit.
+Step 96000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1244.73 effective soft-root-attached cells.
+Step 64000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1237.02 effective soft-root-attached cells.
+Step 81000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 418.033 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 97000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1244.33 effective soft-root-attached cells.
+Step 65000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 449.769 effective soft-root-attached cells.
+Step 73000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1237.25 effective soft-root-attached cells.
+Step 82000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 418.038 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 98000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1245.32 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 66000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1237.31 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 83000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 446.577 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3. Region weight estimates for these regions may be unreliable.
+Step 74000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 417.853 effective soft-root-attached cells.
+Step 99000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1244.94 effective soft-root-attached cells.
+Step 67000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1236.72 effective soft-root-attached cells.
+Step 84000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 449.734 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 1245.65 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 68000: periodic soft-root-attachment parameter refit.
+Step 75000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1236.87 effective soft-root-attached cells.
+Step 85000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1244.87 effective soft-root-attached cells.
+Step 69000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 447.31 effective soft-root-attached cells.
+Step 76000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1158.74 effective soft-root-attached cells.
+Step 86000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1245.17 effective soft-root-attached cells.
+Step 70000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1163.5 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 450.219 effective soft-root-attached cells.
+Step 87000: periodic soft-root-attachment parameter refit.
+Step 77000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1245.01 effective soft-root-attached cells.
+Step 71000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1151.03 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 88000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 447.314 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 78000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1244.53 effective soft-root-attached cells.
+Step 72000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1151.44 effective soft-root-attached cells.
+Step 89000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 449.714 effective soft-root-attached cells.
+Step 79000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1244.76 effective soft-root-attached cells.
+Step 73000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1143.09 effective soft-root-attached cells.
+Step 90000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1244.8 effective soft-root-attached cells.
+Step 74000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 446.513 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 80000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1136.62 effective soft-root-attached cells.
+Step 91000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1244.29 effective soft-root-attached cells.
+Step 75000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 449.463 effective soft-root-attached cells.
+Step 81000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1155.9 effective soft-root-attached cells.
+Step 92000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1244.34 effective soft-root-attached cells.
+Step 76000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 446.532 effective soft-root-attached cells.
+Step 82000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1136.96 effective soft-root-attached cells.
+Step 93000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1244.19 effective soft-root-attached cells.
+Step 77000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 450.213 effective soft-root-attached cells.
+Step 83000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1130.89 effective soft-root-attached cells.
+Step 94000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1244.5 effective soft-root-attached cells.
+Step 78000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1127.79 effective soft-root-attached cells.
+Step 95000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 447.766 effective soft-root-attached cells.
+Step 84000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1244.54 effective soft-root-attached cells.
+Step 79000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1132.75 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 96000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 449.874 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 85000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1244.71 effective soft-root-attached cells.
+Step 80000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1132.97 effective soft-root-attached cells.
+Step 97000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 446.598 effective soft-root-attached cells.
+Step 86000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1245.24 effective soft-root-attached cells.
+Step 81000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1123.52 effective soft-root-attached cells.
+Step 98000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 449.41 effective soft-root-attached cells.
+Step 87000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1244.86 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 82000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1129.54 effective soft-root-attached cells.
+Step 99000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 446.537 effective soft-root-attached cells.
+Step 88000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1244.25 effective soft-root-attached cells.
+Step 83000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 450.388 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 1245.77 effective soft-root-attached cells.
+Step 89000: periodic soft-root-attachment parameter refit.
+Step 84000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1245.51 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 448.46 effective soft-root-attached cells.
+Step 85000: periodic soft-root-attachment parameter refit.
+Step 90000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1245.97 effective soft-root-attached cells.
+Step 86000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 449.847 effective soft-root-attached cells.
+Step 91000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1246.65 effective soft-root-attached cells.
+Step 87000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 447.314 effective soft-root-attached cells.
+Step 92000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1246.34 effective soft-root-attached cells.
+Step 88000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 450.414 effective soft-root-attached cells.
+Step 93000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1246.13 effective soft-root-attached cells.
+Step 89000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 447.211 effective soft-root-attached cells.
+Step 94000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1246.01 effective soft-root-attached cells.
+Step 90000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 450.59 effective soft-root-attached cells.
+Step 95000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1246.34 effective soft-root-attached cells.
+Step 91000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 447.67 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Step 96000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1246.69 effective soft-root-attached cells.
+Step 92000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 450.478 effective soft-root-attached cells.
+Step 97000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1246.63 effective soft-root-attached cells.
+Step 93000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 447.288 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 1246.6 effective soft-root-attached cells.
+Step 98000: periodic soft-root-attachment parameter refit.
+Step 94000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 450.455 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 1246.64 effective soft-root-attached cells.
+Step 99000: periodic soft-root-attachment parameter refit.
+Step 95000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1246.69 effective soft-root-attached cells.
+Step 96000: periodic soft-root-attachment parameter refit.
+Chain 0 completed in 4237.913630 seconds.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1246.45 effective soft-root-attached cells.
+Step 97000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1241.08 effective soft-root-attached cells.
+Step 98000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): DNMT3A_c3, TET2_c23, SMC3_c3, BCOR_c1, BCOR_c10, BCOR_c11, BCOR_c12, BCOR_c13, BCOR_c14, BCOR_c15, BCOR_c16, BCOR_c17, BCOR_c18, BCOR_c19, BCOR_c2, BCOR_c20, BCOR_c21, BCOR_c22, BCOR_c3, BCOR_c4, BCOR_c5, BCOR_c6, BCOR_c7, BCOR_c8, BCOR_c9. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1238.7 effective soft-root-attached cells.
+Step 99000: periodic soft-root-attachment parameter refit.
+Chain 1 completed in 4449.010860 seconds.
+Chain 3 completed in 5209.465240 seconds.
+Chain 2 completed in 5229.246116 seconds.
+Completed! Output written to real_data/AML/AML-123/SCATI/results

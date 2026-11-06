@@ -1,0 +1,15 @@
+{
+  "region_counts_vs_true_CN_pearson_r": 0.14787969999759087,
+  "vaf_vs_true_VAF_pearson_r": 0.8488126786275588,
+  "n_regions": 200,
+  "n_loci": 20,
+  "n_cells": 5000,
+  "n_doublet_cells": 431,
+  "per_sample": [
+    {
+      "cells": 5000,
+      "fraction_true_root_singlets": 0.235,
+      "n_true_nodes_present": 5
+    }
+  ]
+}

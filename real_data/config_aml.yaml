@@ -1,0 +1,27 @@
+# Config of real_data/Snakefile for the 14 AML samples (Morita et al. 2020). Paths are relative to real_data/.
+
+cohort_dir: "AML"                  # AML/<sample>/input/<sample>_{variants,regions}.csv (preprocessed input) and the shipped results
+patients: "AML/patients.tsv"       # sample, sex, n_timepoints, source
+out_root: "rerun"                  # where the filtered files and the new SCATI results are written
+
+# Filtering (filtering.py): drop regions with a mean count below this over all cells, and the variants in them
+min_avg_region_count: 1.0
+
+scati_n_chains: 4
+scati_chain_length: 200000
+scati_cache_gb: 8
+scati_target_doublet_rate: 0.08
+scati_flags:
+  use_healthy_annotation: 0
+  node_cost: 250
+  cn_neutral_node_cost_factor: 1.0
+  Gain_cost: 250
+  Loss_cost: 250
+  CNLOH_cost: 250
+  FGD_cost: 2500
+  alt_to_ref_cost: 250
+  ref_to_alt_cost: 50
+
+# Snakemake resources
+scati_mem_mb: 40000
+scati_runtime_min: 1440

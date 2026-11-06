@@ -1,0 +1,22 @@
+digraph G{
+node [color=dimgray fontsize=24 fontcolor=black fontname=Helvetica penwidth=5];
+0 -> 1 [color=dimgray penwidth=4 weight=2];
+4 -> 2 [color=dimgray penwidth=4 weight=2];
+0 -> 3 [color=dimgray penwidth=4 weight=2];
+0 -> 4 [color=dimgray penwidth=4 weight=2];
+0[label=<chr2.198266943.C_T(SF3B1)(chr2)<br/>chr6.40116264.T_G(chr6)(chr6)<br/>chr7.148504716.AG_A(EZH2)(chr7)<br/>chr7.148504854.A_AGACTT(EZH2)(chr7)<br/>chr16.55770629.C_T(chr16)(chr16)<br/>chr20.31022959.T_C(ASXL1)(chr20)<br/><B>CNLOH SF3B1_1:REF (chr2)</B><br/><B>CNLOH chr6_40116264:REF (chr6)</B><br/><B>CNLOH chr16_55770629:REF (chr16)</B><br/><B>CNLOH ASXL1_2_a1:REF (chr20)</B><br/>>];
+1[label=<<B>Loss EZH2_1:REF,REF (chr7)</B><br/><B>Loss EZH2_2 (chr7)</B><br/>>];
+2[label=<<B>Loss EZH2_1:ALT,ALT (chr7)</B><br/>>];
+3[label=<chr12.25398279.C_T(KRAS)(chr12)<br/>>];
+4[label=<<B>Loss EZH2_2 (chr7)</B><br/>>];
+0 -> 5 [dir=none style=dashed weight=1 penwidth=5 color=lightcoral];
+1 -> 6 [dir=none style=dashed weight=1 penwidth=5 color=skyblue3];
+2 -> 7 [dir=none style=dashed weight=1 penwidth=5 color=sandybrown];
+3 -> 8 [dir=none style=dashed weight=1 penwidth=5 color=paleturquoise3];
+4 -> 9 [dir=none style=dashed weight=1 penwidth=5 color=thistle];
+5[label="1544 cells\n67\%" style = filled width=2.72107 height=2.72107 color=lightcoral];
+6[label="95 cells\n4\%" style = filled width=0.674959 height=0.674959 color=skyblue3];
+7[label="78 cells\n3\%" style = filled width=0.611594 height=0.611594 color=sandybrown];
+8[label="216 cells\n9\%" style = filled width=1.01775 height=1.01775 color=paleturquoise3];
+9[label="384 cells\n17\%" style = filled width=1.357 height=1.357 color=thistle];
+}

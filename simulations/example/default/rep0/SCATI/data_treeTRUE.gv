@@ -1,0 +1,22 @@
+digraph G{
+node [color=dimgray fontsize=24 fontcolor=black fontname=Helvetica penwidth=5];
+0 -> 1 [color=dimgray penwidth=4 weight=2];
+3 -> 2 [color=dimgray penwidth=4 weight=2];
+0 -> 3 [color=dimgray penwidth=4 weight=2];
+2 -> 4 [color=dimgray penwidth=4 weight=2];
+0[label=< >];
+1[label=<SNV4(ref-alt)<br/>SNV19(ref-alt)<br/>SNV15(ref-alt)<br/>SNV8(ref-alt)<br/>SNV9(ref-alt)<br/>SNV5(ref-alt)<br/>SNV10(ref-alt)<br/>Gain chr6 regions 1-9<br/>Gain chr6 region 8<br/>Gain chr9 regions 8-14<br/>Aneuploidy Loss chr1 (24 regions)<br/>>];
+2[label=<SNV2(ref-alt)<br/>SNV13(ref-alt)<br/>SNV7(ref-alt)<br/>SNV0(ref-alt)<br/>SNV14(ref-alt)<br/>SNV6(ref-alt)<br/>>];
+3[label=<SNV3(ref-alt)<br/>SNV18(ref-alt)<br/>SNV11(ref-alt)<br/>SNV17(ref-alt)<br/>>];
+4[label=<SNV1(ref-alt)<br/>SNV12(ref-alt)<br/>SNV16(ref-alt)<br/>Gain chr9 regions 3-14<br/>Loss chr5 regions 18-25<br/>>];
+0 -> 5 [dir=none style=dashed weight=1 penwidth=5 color=lightcoral];
+1 -> 6 [dir=none style=dashed weight=1 penwidth=5 color=skyblue3];
+2 -> 7 [dir=none style=dashed weight=1 penwidth=5 color=sandybrown];
+3 -> 8 [dir=none style=dashed weight=1 penwidth=5 color=paleturquoise3];
+4 -> 9 [dir=none style=dashed weight=1 penwidth=5 color=thistle];
+5[label="25.00\%" style=filled width=1.667 height=1.667 color=lightcoral];
+6[label="11.36\%" style=filled width=1.123 height=1.123 color=skyblue3];
+7[label="19.67\%" style=filled width=1.478 height=1.478 color=sandybrown];
+8[label="20.49\%" style=filled width=1.509 height=1.509 color=paleturquoise3];
+9[label="23.49\%" style=filled width=1.615 height=1.615 color=thistle];
+}

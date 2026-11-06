@@ -1,0 +1,9 @@
+build/
+*.exe
+*.o
+__pycache__/
+*.pyc
+.snakemake/
+.idea/
+cmake-build-*/
+external/

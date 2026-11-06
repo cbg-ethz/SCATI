@@ -1,0 +1,320 @@
+"""
+Runs the benchmark methods on every dataset under the simulation root (see run_simulation_sweep.py).
+Results are written next to each dataset:
+    SCATI with the healthy annotation        SCATI/results/
+    SCATI without the annotation             SCATI/results_noann/
+    COMPASS with germline frequencies        COMPASS_snp/results/   (multi-sample: COMPASS_snp/results/sampleN/)
+    LoPhy                                    LoPhy/results/
+SCATI and LoPhy use all samples of a dataset jointly. COMPASS has no multi-sample mode and runs once per sample.
+Scoring is done by analyze_simulation_results.py (run_analysis.sh).
+
+Run from simulations/:
+    snakemake -s run/Snakefile_run_methods --cores 4 -n                              # dry run
+    snakemake -s run/Snakefile_run_methods --cores 4 --config sim_root=simulated_robust
+    bash run/run_scati_slurm.sbatch                                                # one Slurm job per inference
+Override settings with --config, e.g. --config scati_chain_length=300 compass_chain_length=300 lophy_iters=2 for a quick test.
+"""
+import os
+import re
+import shutil
+
+# The shell commands use POSIX syntax, so run them with bash on Windows too.
+if os.name == "nt":
+    _bash = shutil.which("bash") or "C:/cygwin64/bin/bash.exe"
+    if os.path.isfile(_bash):
+        shell.executable(_bash)
+
+
+def P(*parts):
+    """Joins paths with forward slashes. Bash on Windows mangles backslashes, so every path in a shell string goes through this."""
+    return os.path.join(*parts).replace("\\", "/")
+
+
+def _cfg_str(key, default=""):
+    """Config value as a string. An empty value (--config key=) counts as unset and gives the default."""
+    v = config.get(key, default)
+    return default if v is None or str(v) == "None" else str(v)
+
+
+ROOT = P(os.path.abspath(os.path.join(workflow.current_basedir, "..", "..")))   # repository root
+SIM = P(os.path.join(workflow.workdir_init, _cfg_str("sim_root", "simulated_data")))   # datasets: <SIM>/<setting>/<rep>/<Method>/, relative to simulations/
+
+# g++ on Cygwin/MinGW appends .exe to the output name.
+EXE_EXT = ".exe" if os.name == "nt" else ""
+SCATI_BIN = _cfg_str("scati_bin", P(ROOT, "build", "SCATI" + EXE_EXT))   # built into build/, see the README
+# COMPASS and LoPhy are not part of this repository. Install them, or set the paths of their executables here.
+COMPASS_BIN = P(ROOT, "external", "COMPASS", "COMPASS" + EXE_EXT)
+LOPHY_BIN = P(ROOT, "external", "LoPhy", "bin", "LoPhy" + EXE_EXT)
+
+# SCATI
+SCATI_N_CHAINS = int(config.get("scati_n_chains", 4))
+SCATI_CHAIN_LENGTH = int(config.get("scati_chain_length", 100000))
+# Memory per job in MB, requested on Slurm (locally enforced only with --resources mem_mb=...). The cache budget is 4 GB per
+# chain and sample: one sample needs 24 GB with 4 chains, each further sample 5 GB more per chain.
+SCATI_MEM_MB = int(config.get("scati_mem_mb", 24000))
+SCATI_MEM_MB_PER_EXTRA_SAMPLE = int(config.get("scati_mem_mb_per_extra_sample", 5000 * SCATI_N_CHAINS))
+SCATI_EXTRA_ARGS = _cfg_str("scati_extra_args", "")   # appended to every SCATI run, e.g. "--cache_gb 6"
+# Rounding step of a node's Lambda in the CNA cache key; coarser is faster (binary default 0.01).
+SCATI_LAMBDA_ROUNDING = float(config.get("scati_lambda_rounding", 0.02))
+# Node cost at 5000 cells (the default of SCATI)
+SCATI_NODE_COST = float(config.get("scati_node_cost", 500))
+SCATI_DISPERSION_MLE = int(config.get("scati_dispersion_mle", 0))   # 1 = MLE region dispersion, 0 = method of moments (binary default)
+SCATI_DOUBLET_RATE = float(config.get("scati_doublet_rate", 0.08))  # simulated doublet rate (binary default 0.2)
+_omega = _cfg_str("scati_doublet_omega", "").strip()                # empty = binary default
+SCATI_DOUBLET_ARGS = f"--target_doublet_rate {SCATI_DOUBLET_RATE:g}" + (f" --target_doublet_rate_omega {_omega}" if _omega else "")
+SCATI_RUNTIME_MIN = int(config.get("scati_runtime_min", 1440))      # Slurm time limit per job, in minutes
+
+# COMPASS with the germline variants as FREQ (see make_compass_snp_inputs.py)
+COMPASS_N_CHAINS = int(config.get("compass_n_chains", 4))
+COMPASS_CHAIN_LENGTH = int(config.get("compass_chain_length", 20000))
+COMPASS_DOUBLET_RATE = float(config.get("compass_doublet_rate", 0.08))
+COMPASS_EXTRA_ARGS = _cfg_str("compass_extra_args", "")
+# COMPASS charges (4 + n_loci) * node_cost per node; 50 gives about 1200 nats. 0 = COMPASS default (1).
+COMPASS_NODE_COST = float(config.get("compass_node_cost", 50))
+COMPASS_NODECOST_ARG = f"--nodecost {COMPASS_NODE_COST:g}" if COMPASS_NODE_COST > 0 else ""
+COMPASS_MEM_MB = int(config.get("compass_mem_mb", 8000))
+COMPASS_RUNTIME_MIN = int(config.get("compass_runtime_min", 1440))
+
+# LoPhy
+LOPHY_ITERS = int(config.get("lophy_iters", 200))   # hill-climbing iterations per subtree (LoPhy default)
+LOPHY_MEM_MB = int(config.get("lophy_mem_mb", 16000))
+LOPHY_RUNTIME_MIN = int(config.get("lophy_runtime_min", 2880))
+
+# Sex passed to every method. It must match the --sex used to generate the data (run_simulation_sweep.py default: female).
+SIM_SEX = _cfg_str("sim_sex", "female")
+
+# Python for the helper scripts (make_noisy_annotation.py in Snakefile_robustness).
+COMPARE_PYTHON = config.get("compare_python", "python")
+
+
+def _conda_prefix(env):
+    """Shell prefix that activates the conda environment `env` (for LoPhy, which needs a C++20 compiler). `set +u` avoids an unset-variable error in conda's activation script."""
+    return f'set +u && source "$(conda info --base)/etc/profile.d/conda.sh" && conda activate {env} && set -u && ' if env else ""
+
+
+LOPHY_ENV_PREFIX = _conda_prefix(_cfg_str("lophy_conda_env", ""))
+
+# ---------------------------------------------------------------------------
+# Datasets: every (setting, rep) with SCATI input. Multi-sample ones have COMPASS/sampleN/ folders.
+# ---------------------------------------------------------------------------
+SINGLE_JOBS = []   # (setting, rep)
+MULTI_JOBS = []    # (setting, rep, [sample0, sample1, ...])
+
+if os.path.isdir(SIM):
+    for setting in sorted(os.listdir(SIM)):
+        setting_dir = P(SIM, setting)
+        if not os.path.isdir(setting_dir):
+            continue
+        for rep in sorted(os.listdir(setting_dir)):
+            scati_dir = P(setting_dir, rep, "SCATI")
+            compass_dir = P(setting_dir, rep, "COMPASS")
+            # single-sample data is data_variants.csv, multi-sample data is data_<i>_variants.csv
+            if not (os.path.isfile(P(scati_dir, "data_variants.csv")) or os.path.isfile(P(scati_dir, "data_1_variants.csv"))):
+                continue
+            samples = sorted(d for d in os.listdir(compass_dir)
+                             if d.startswith("sample") and os.path.isdir(P(compass_dir, d))) \
+                      if os.path.isdir(compass_dir) else []
+            if samples:
+                MULTI_JOBS.append((setting, rep, samples))
+            else:
+                SINGLE_JOBS.append((setting, rep))
+
+ALL_JOBS = SINGLE_JOBS + [(s, r) for s, r, _ in MULTI_JOBS]
+
+# With --executor slurm: run the target and the build in the driver, not as Slurm jobs.
+localrules: all, build_scati
+
+
+rule all:
+    input:
+        [P(SIM, s, r, "SCATI", "results", "done.txt") for s, r in ALL_JOBS] +
+        [P(SIM, s, r, "SCATI", "results_noann", "done.txt") for s, r in ALL_JOBS] +
+        [P(SIM, s, r, "LoPhy", "results", "done.txt") for s, r in ALL_JOBS] +
+        [P(SIM, s, r, "COMPASS_snp", "results", "done.txt") for s, r in SINGLE_JOBS] +
+        [P(SIM, s, r, "COMPASS_snp", "results", sample, "done.txt")
+         for s, r, samples in MULTI_JOBS for sample in samples]
+
+
+# ---------------------------------------------------------------------------
+# Builds
+# ---------------------------------------------------------------------------
+
+rule build_scati:
+    output: SCATI_BIN
+    shell:
+        "cd {ROOT} && mkdir -p build && g++ -std=c++20 -O2 -fopenmp -Isrc -o build/SCATI "
+        "src/SCATI.cpp src/Tree.cpp src/Tree_moves.cpp src/Node.cpp src/Scores.cpp src/Inference.cpp src/input.cpp"
+
+
+# ---------------------------------------------------------------------------
+# SCATI: all samples jointly (--n_samples)
+# ---------------------------------------------------------------------------
+
+def _scati_marker_file(wc):
+    scati_dir = P(SIM, wc.setting, wc.rep, "SCATI")
+    single = P(scati_dir, "data_variants.csv")
+    return single if os.path.isfile(single) else P(scati_dir, "data_1_variants.csv")
+
+
+def _scati_n_samples(wc):
+    """Number of samples of a dataset (1 for single-sample data)."""
+    return max(1, sum(1 for f in os.listdir(P(SIM, wc.setting, wc.rep, "SCATI"))
+                      if re.fullmatch(r"data_\d+_variants\.csv", f)))
+
+
+def _scati_mem_mb(wc):
+    return SCATI_MEM_MB + (_scati_n_samples(wc) - 1) * SCATI_MEM_MB_PER_EXTRA_SAMPLE
+
+
+def _scati_mem_mb_per_cpu(wc):
+    return _scati_mem_mb(wc) // SCATI_N_CHAINS
+
+
+SCATI_ARGS = ("--n_chains {SCATI_N_CHAINS} --chain_length {SCATI_CHAIN_LENGTH} --sex {SIM_SEX} "
+              "--node_cost {SCATI_NODE_COST} {SCATI_DOUBLET_ARGS} --lambda_rounding_precision {SCATI_LAMBDA_ROUNDING} "
+              "--fit_region_dispersion_mle {SCATI_DISPERSION_MLE} --verbose 0 --sampling 0 {SCATI_EXTRA_ARGS}")
+
+
+rule scati_infer:
+    input:
+        bin=SCATI_BIN,
+        data=_scati_marker_file
+    output:
+        P(SIM, "{setting}", "{rep}", "SCATI", "results", "done.txt")
+    # one OpenMP thread per chain
+    threads: SCATI_N_CHAINS
+    resources:
+        mem_mb=_scati_mem_mb,
+        mem_mb_per_cpu=_scati_mem_mb_per_cpu,   # Euler rejects --mem, so request --mem-per-cpu
+        runtime=SCATI_RUNTIME_MIN,
+        cpus_per_task=SCATI_N_CHAINS            # without this Euler allocates one CPU
+    params:
+        basename=lambda wc: P(SIM, wc.setting, wc.rep, "SCATI", "data"),
+        outdir=lambda wc: P(SIM, wc.setting, wc.rep, "SCATI", "results"),
+        n_samples=_scati_n_samples
+    benchmark:
+        P(SIM, "{setting}", "{rep}", "SCATI", "results", "benchmark.tsv")
+    shell:
+        "mkdir -p {params.outdir} && "
+        "{input.bin} -i {params.basename} -o {params.outdir} --n_samples {params.n_samples} " + SCATI_ARGS + " && "
+        "touch {output}"
+
+
+# SCATI without the healthy annotation: the root cells are inferred from the data.
+rule scati_infer_noann:
+    input:
+        bin=SCATI_BIN,
+        data=_scati_marker_file
+    output:
+        P(SIM, "{setting}", "{rep}", "SCATI", "results_noann", "done.txt")
+    threads: SCATI_N_CHAINS
+    resources:
+        mem_mb=_scati_mem_mb,
+        mem_mb_per_cpu=_scati_mem_mb_per_cpu,
+        runtime=SCATI_RUNTIME_MIN,
+        cpus_per_task=SCATI_N_CHAINS
+    params:
+        basename=lambda wc: P(SIM, wc.setting, wc.rep, "SCATI", "data"),
+        outdir=lambda wc: P(SIM, wc.setting, wc.rep, "SCATI", "results_noann"),
+        n_samples=_scati_n_samples
+    benchmark:
+        P(SIM, "{setting}", "{rep}", "SCATI", "results_noann", "benchmark.tsv")
+    shell:
+        "mkdir -p {params.outdir} && "
+        "{input.bin} -i {params.basename} -o {params.outdir} --n_samples {params.n_samples} " + SCATI_ARGS + " "
+        "--use_healthy_annotation 0 && "
+        "touch {output}"
+
+
+# ---------------------------------------------------------------------------
+# LoPhy: all samples jointly (merged cell_samples.txt)
+# ---------------------------------------------------------------------------
+
+rule lophy_infer:
+    input:
+        bin=LOPHY_BIN,
+        data=P(SIM, "{setting}", "{rep}", "LoPhy", "character_matrix.csv")
+    output:
+        P(SIM, "{setting}", "{rep}", "LoPhy", "results", "done.txt")
+    threads: 1
+    resources:
+        mem_mb=LOPHY_MEM_MB,
+        mem_mb_per_cpu=LOPHY_MEM_MB,
+        runtime=LOPHY_RUNTIME_MIN,
+        cpus_per_task=1
+    params:
+        indir=lambda wc: P(SIM, wc.setting, wc.rep, "LoPhy"),
+        # relative path: the Cygwin build of LoPhy reads a "C:/..." output path as relative
+        outdir=lambda wc: os.path.relpath(P(SIM, wc.setting, wc.rep, "LoPhy", "results")).replace("\\", "/")
+    benchmark:
+        P(SIM, "{setting}", "{rep}", "LoPhy", "results", "benchmark.tsv")
+    shell:
+        # LoPhy exits 0 on failure, so check for its tree file (<-o>/<-p>_<-seed>.gv) before touching done.txt
+        "{LOPHY_ENV_PREFIX}mkdir -p {params.outdir} && "
+        "{input.bin} -c {params.indir}/character_matrix.csv -v {params.indir}/variant_reads.csv "
+        "-t {params.indir}/total_reads.csv -m {params.indir}/meta.csv "
+        "-r {params.indir}/region_reads.csv -s {params.indir}/cell_samples.txt "
+        "-o {params.outdir} -p data -seed 0 -iters {LOPHY_ITERS} && "
+        "test -f {params.outdir}/data_0.gv && "
+        "echo 'method=LoPhy iters={LOPHY_ITERS}' > {params.outdir}/run_info.txt && "
+        "touch {output}"
+
+
+# ---------------------------------------------------------------------------
+# COMPASS with germline frequencies: no multi-sample mode, run once per sample
+# ---------------------------------------------------------------------------
+
+COMPASS_ARGS = ("--nchains {COMPASS_N_CHAINS} --chainlength {COMPASS_CHAIN_LENGTH} --CNA 1 --sex {SIM_SEX} "
+                "--doubletrate {COMPASS_DOUBLET_RATE} {COMPASS_NODECOST_ARG} {COMPASS_EXTRA_ARGS}")
+COMPASS_RUN_INFO = ("echo 'method=COMPASS_snp n_chains={COMPASS_N_CHAINS} chain_length={COMPASS_CHAIN_LENGTH} "
+                    "doublet_rate={COMPASS_DOUBLET_RATE} {COMPASS_NODECOST_ARG} extra_args={COMPASS_EXTRA_ARGS} FREQ=germline'")
+
+
+rule compass_snp_infer:
+    input:
+        bin=COMPASS_BIN,
+        data=P(SIM, "{setting}", "{rep}", "COMPASS_snp", "data_variants.csv")
+    output:
+        P(SIM, "{setting}", "{rep}", "COMPASS_snp", "results", "done.txt")
+    threads: COMPASS_N_CHAINS
+    resources:
+        mem_mb=COMPASS_MEM_MB,
+        mem_mb_per_cpu=COMPASS_MEM_MB // COMPASS_N_CHAINS,
+        runtime=COMPASS_RUNTIME_MIN,
+        cpus_per_task=COMPASS_N_CHAINS
+    params:
+        basename=lambda wc: P(SIM, wc.setting, wc.rep, "COMPASS_snp", "data"),
+        outdir=lambda wc: P(SIM, wc.setting, wc.rep, "COMPASS_snp", "results")
+    benchmark:
+        P(SIM, "{setting}", "{rep}", "COMPASS_snp", "results", "benchmark.tsv")
+    shell:
+        # remove old outputs first: COMPASS does not write data_nodes_copynumbers.tsv when it skips the CNA phase
+        "mkdir -p {params.outdir} && rm -f {params.outdir}/data_* && "
+        "{input.bin} -i {params.basename} -o {params.outdir}/data " + COMPASS_ARGS + " && "
+        + COMPASS_RUN_INFO + " > {params.outdir}/run_info.txt && "
+        "touch {output}"
+
+rule compass_snp_infer_multisample:
+    input:
+        bin=COMPASS_BIN,
+        data=P(SIM, "{setting}", "{rep}", "COMPASS_snp", "{sample}", "data_variants.csv")
+    output:
+        P(SIM, "{setting}", "{rep}", "COMPASS_snp", "results", "{sample}", "done.txt")
+    wildcard_constraints:
+        sample=r"sample\d+"
+    threads: COMPASS_N_CHAINS
+    resources:
+        mem_mb=COMPASS_MEM_MB,
+        mem_mb_per_cpu=COMPASS_MEM_MB // COMPASS_N_CHAINS,
+        runtime=COMPASS_RUNTIME_MIN,
+        cpus_per_task=COMPASS_N_CHAINS
+    params:
+        basename=lambda wc: P(SIM, wc.setting, wc.rep, "COMPASS_snp", wc.sample, "data"),
+        outdir=lambda wc: P(SIM, wc.setting, wc.rep, "COMPASS_snp", "results", wc.sample)
+    benchmark:
+        P(SIM, "{setting}", "{rep}", "COMPASS_snp", "results", "{sample}", "benchmark.tsv")
+    shell:
+        "mkdir -p {params.outdir} && rm -f {params.outdir}/data_* && "
+        "{input.bin} -i {params.basename} -o {params.outdir}/data " + COMPASS_ARGS + " && "
+        + COMPASS_RUN_INFO + " > {params.outdir}/run_info.txt && "
+        "touch {output}"

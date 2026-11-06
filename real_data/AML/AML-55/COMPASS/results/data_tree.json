@@ -1,0 +1,52 @@
+{
+"nodes":[
+	{
+		"name": "Node 0",
+		"parent": "-",
+		"SNV": ["chr6.40116264.T_G(chr6)","chr6.62094328.T_A(chr6)","chr6.62094388.T_C(chr6)","chr7.148504854.A_AGACTT(EZH2)","chr12.112927043.C_T(PTPN11)","chr17.7578115.T_C(TP53)","chr20.31022959.T_C(ASXL1)","chr2.198266943.C_T(SF3B1)","chr6.62094287.A_T(chr6)","chr10.5554293.T_C(chr10)","chr10.106721610.G_A(chr10)","chr7.148504716.AG_A(EZH2)","chr17.7578146.T_C(TP53)"],
+		"CNA": ["CNLOH SF3B1_1","CNLOH chr6_40116264","CNLOH chr10_106721610","CNLOH ASXL1_2_a1"]
+	},
+	{
+		"name": "Node 1",
+		"parent": "Node 0",
+		"SNV": ["chr5.170837457.A_G(NPM1)","chr11.32414333.G_T(WT1)","chr4.55599436.T_C(KIT)","chr6.17076840.C_A(chr6)"],
+		"CNA": ["CNLOH KIT_1","CNLOH chr6_17076840","CNLOH WT1_1_a2","CNLOH TP53_1"]
+	},
+	{
+		"name": "Node 2",
+		"parent": "Node 0",
+		"SNV": ["chr21.44524290.A_C(U2AF1)","chr13.28592546.T_C(FLT3)","chr16.8569820.G_A(chr16)","chr16.55770629.C_T(chr16)","chr13.28608283.G_A(FLT3)"],
+		"CNA": ["CNLOH chr16_8569820"]
+	},
+	{
+		"name": "Node 3",
+		"parent": "Node 1",
+		"SNV": ["chr21.36252865.C_T(RUNX1)","chr2.209113113.G_A(IDH1)","chr2.25457243.G_A(DNMT3A)"],
+		"CNA": []
+	},
+	{
+		"name": "Node 4",
+		"parent": "Node 3",
+		"SNV": [],
+		"CNA": ["CNLOH EZH2_1"]
+	},
+	{
+		"name": "Node 5",
+		"parent": "Node 2",
+		"SNV": [],
+		"CNA": ["CNLOH EZH2_1"]
+	},
+	{
+		"name": "Node 6",
+		"parent": "Node 2",
+		"SNV": [],
+		"CNA": ["CNLOH EZH2_1"]
+	},
+	{
+		"name": "Node 7",
+		"parent": "Node 5",
+		"SNV": [],
+		"CNA": ["CNLOH TP53_1"]
+	}
+]
+}

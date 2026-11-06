@@ -1,0 +1,52 @@
+{
+"nodes":[
+	{
+		"name": "Node 0",
+		"parent": "-",
+		"SNV": ["chr17.29563076.T_TG(NF1)"],
+		"CNA": ["CNLOH NF1_c17"]
+	},
+	{
+		"name": "Node 1",
+		"parent": "Node 2",
+		"SNV": [],
+		"CNA": ["Loss KRAS_c1"]
+	},
+	{
+		"name": "Node 2",
+		"parent": "Node 0",
+		"SNV": [],
+		"CNA": ["Loss TP53_c5"]
+	},
+	{
+		"name": "Node 3",
+		"parent": "Node 2",
+		"SNV": ["chr4.106158237.T_TA(TET2)","chr4.106164778.C_T(TET2)"],
+		"CNA": []
+	},
+	{
+		"name": "Node 4",
+		"parent": "Node 0",
+		"SNV": [],
+		"CNA": ["Gain TP53_c5"]
+	},
+	{
+		"name": "Node 5",
+		"parent": "Node 2",
+		"SNV": ["chr12.25378716.GA_G(KRAS)"],
+		"CNA": ["Gain KRAS_c1"]
+	},
+	{
+		"name": "Node 6",
+		"parent": "Node 2",
+		"SNV": ["chr20.31022713.A_G(ASXL1)"],
+		"CNA": []
+	},
+	{
+		"name": "Node 7",
+		"parent": "Node 2",
+		"SNV": ["chr17.29562734.C_A(NF1)"],
+		"CNA": []
+	}
+]
+}

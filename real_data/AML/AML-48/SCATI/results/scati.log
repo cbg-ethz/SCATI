@@ -1,0 +1,914 @@
+No burn-in provided. Using half chain length.
+Using filtered variants file: real_data/AML/AML-48/SCATI/AML-48_variants_filtered.csv
+Using filtered regions file: real_data/AML/AML-48/SCATI/AML-48_regions_filtered.csv
+Output directory already exists: real_data/AML/AML-48/SCATI/results
+Starting 4 MCMC chains in parallel
+Chain 3: Start tree inference.
+Chain 1: Start tree inference.
+Chain 2: Start tree inference.
+Chain 0: Start tree inference.
+Sample: refit region weights/dropout from 2317 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 2317 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 2317 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 2317 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 1040.64 effective soft-root-attached cells.
+Step 1000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 120.337 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 290.188 effective soft-root-attached cells.
+Step 1000: periodic soft-root-attachment parameter refit.
+Step 1000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 136.197 effective soft-root-attached cells.
+Step 1000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 2178.73 effective soft-root-attached cells.
+Step 2000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1003.08 effective soft-root-attached cells.
+Step 2000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 376.02 effective soft-root-attached cells.
+Step 2000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 124.568 effective soft-root-attached cells.
+Step 2000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1478 effective soft-root-attached cells.
+Step 3000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 785.364 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Step 3000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 122.59 effective soft-root-attached cells.
+Step 3000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1126.41 effective soft-root-attached cells.
+Step 3000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1066.67 effective soft-root-attached cells.
+Step 4000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1437.07 effective soft-root-attached cells.
+Step 4000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 123.92 effective soft-root-attached cells.
+Step 4000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 1049.31 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 965.226 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 916.71 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Step 5000: periodic soft-root-attachment parameter refit.
+Step 5000: periodic soft-root-attachment parameter refit.
+Step 4000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 123.817 effective soft-root-attached cells.
+Step 5000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 860.68 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 955.997 effective soft-root-attached cells.
+Step 5000: periodic soft-root-attachment parameter refit.
+Step 6000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 867.993 effective soft-root-attached cells.
+Step 6000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 123.825 effective soft-root-attached cells.
+Step 6000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 846.559 effective soft-root-attached cells.
+Step 6000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 820.65 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 863.142 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 124.36 effective soft-root-attached cells.
+Step 7000: periodic soft-root-attachment parameter refit.
+Step 7000: periodic soft-root-attachment parameter refit.
+Step 7000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 120.773 effective soft-root-attached cells.
+Step 8000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 877.982 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 791.916 effective soft-root-attached cells.
+Step 7000: periodic soft-root-attachment parameter refit.
+Step 8000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 816.758 effective soft-root-attached cells.
+Step 8000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 120.465 effective soft-root-attached cells.
+Step 9000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 878.314 effective soft-root-attached cells.
+Step 8000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 789.917 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 776.844 effective soft-root-attached cells.
+Step 9000: periodic soft-root-attachment parameter refit.
+Step 9000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 120.411 effective soft-root-attached cells.
+Step 10000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 120.403 effective soft-root-attached cells.
+Step 11000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 877.294 effective soft-root-attached cells.
+Step 9000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 775.809 effective soft-root-attached cells.
+Step 10000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 769.096 effective soft-root-attached cells.
+Step 10000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 120.401 effective soft-root-attached cells.
+Step 12000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 870.07 effective soft-root-attached cells.
+Step 10000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 766.69 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 773.688 effective soft-root-attached cells.
+Step 11000: periodic soft-root-attachment parameter refit.
+Step 11000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 120.401 effective soft-root-attached cells.
+Step 13000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 120.401 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 867.712 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 762.226 effective soft-root-attached cells.
+Step 14000: periodic soft-root-attachment parameter refit.
+Step 11000: periodic soft-root-attachment parameter refit.
+Step 12000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 773.735 effective soft-root-attached cells.
+Step 12000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 120.401 effective soft-root-attached cells.
+Step 15000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 758.928 effective soft-root-attached cells.
+Step 13000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 867.539 effective soft-root-attached cells.
+Step 12000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 774.204 effective soft-root-attached cells.
+Step 13000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 120.401 effective soft-root-attached cells.
+Step 16000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 867.567 effective soft-root-attached cells.
+Step 13000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 720.48 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 120.401 effective soft-root-attached cells.
+Step 17000: periodic soft-root-attachment parameter refit.
+Step 14000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 774.948 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Step 14000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 867.565 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 120.401 effective soft-root-attached cells.
+Step 18000: periodic soft-root-attachment parameter refit.
+Step 14000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 775.821 effective soft-root-attached cells.
+Step 15000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 660.721 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 120.401 effective soft-root-attached cells.
+Step 19000: periodic soft-root-attachment parameter refit.
+Step 15000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 867.703 effective soft-root-attached cells.
+Step 15000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 120.401 effective soft-root-attached cells.
+Step 20000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 774.945 effective soft-root-attached cells.
+Step 16000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 867.736 effective soft-root-attached cells.
+Step 16000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 612.391 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 120.401 effective soft-root-attached cells.
+Step 21000: periodic soft-root-attachment parameter refit.
+Step 16000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 775.458 effective soft-root-attached cells.
+Step 17000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 867.742 effective soft-root-attached cells.
+Step 17000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 120.401 effective soft-root-attached cells.
+Step 22000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 774.834 effective soft-root-attached cells.
+Step 18000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 120.401 effective soft-root-attached cells.
+Step 23000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 867.743 effective soft-root-attached cells.
+Step 18000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 558.714 effective soft-root-attached cells.
+Step 17000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 120.401 effective soft-root-attached cells.
+Step 24000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 779.763 effective soft-root-attached cells.
+Step 19000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 867.743 effective soft-root-attached cells.
+Step 19000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 120.401 effective soft-root-attached cells.
+Step 25000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 533.892 effective soft-root-attached cells.
+Step 18000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 120.401 effective soft-root-attached cells.
+Step 26000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 931.986 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 775.749 effective soft-root-attached cells.
+Step 20000: periodic soft-root-attachment parameter refit.
+Step 20000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 120.401 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Step 27000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 499.316 effective soft-root-attached cells.
+Step 19000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 901.222 effective soft-root-attached cells.
+Step 21000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 757.128 effective soft-root-attached cells.
+Step 21000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 120.401 effective soft-root-attached cells.
+Step 28000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 477.05 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 120.401 effective soft-root-attached cells.
+Step 29000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 892.787 effective soft-root-attached cells.
+Step 20000: periodic soft-root-attachment parameter refit.
+Step 22000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 725.269 effective soft-root-attached cells.
+Step 22000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 120.401 effective soft-root-attached cells.
+Step 30000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 891.179 effective soft-root-attached cells.
+Step 23000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 470.675 effective soft-root-attached cells.
+Step 21000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 120.401 effective soft-root-attached cells.
+Step 31000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 679.34 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Step 23000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 891.039 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 120.401 effective soft-root-attached cells.
+Step 32000: periodic soft-root-attachment parameter refit.
+Step 24000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 473.569 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 120.401 effective soft-root-attached cells.
+Step 33000: periodic soft-root-attachment parameter refit.
+Step 22000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 891.075 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 601.848 effective soft-root-attached cells.
+Step 25000: periodic soft-root-attachment parameter refit.
+Step 24000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 120.401 effective soft-root-attached cells.
+Step 34000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 891.209 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 446.056 effective soft-root-attached cells.
+Step 26000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 120.401 effective soft-root-attached cells.
+Step 35000: periodic soft-root-attachment parameter refit.
+Step 23000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 518.23 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 120.401 effective soft-root-attached cells.
+Step 36000: periodic soft-root-attachment parameter refit.
+Step 25000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 891.259 effective soft-root-attached cells.
+Step 27000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 120.401 effective soft-root-attached cells.
+Step 37000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 434.739 effective soft-root-attached cells.
+Step 24000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 891.28 effective soft-root-attached cells.
+Step 28000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 120.401 effective soft-root-attached cells.
+Step 38000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 462.343 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Step 26000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 120.401 effective soft-root-attached cells.
+Step 39000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 891.29 effective soft-root-attached cells.
+Step 29000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 408.669 effective soft-root-attached cells.
+Step 25000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 154.396 effective soft-root-attached cells.
+Step 40000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 891.295 effective soft-root-attached cells.
+Step 30000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 403.784 effective soft-root-attached cells.
+Step 27000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 138.494 effective soft-root-attached cells.
+Step 41000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 389.793 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Step 26000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 891.297 effective soft-root-attached cells.
+Step 31000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 136.053 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Step 42000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 403.094 effective soft-root-attached cells.
+Step 28000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 891.299 effective soft-root-attached cells.
+Step 32000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 322.421 effective soft-root-attached cells.
+Step 27000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 137.476 effective soft-root-attached cells.
+Step 43000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 891.299 effective soft-root-attached cells.
+Step 33000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 371.59 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 296.564 effective soft-root-attached cells.
+Step 29000: periodic soft-root-attachment parameter refit.
+Step 28000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 891.3 effective soft-root-attached cells.
+Step 34000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 140.76 effective soft-root-attached cells.
+Step 44000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 891.3 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 306.387 effective soft-root-attached cells.
+Step 35000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 362.054 effective soft-root-attached cells.
+Step 29000: periodic soft-root-attachment parameter refit.
+Step 30000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 141.06 effective soft-root-attached cells.
+Step 45000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 891.3 effective soft-root-attached cells.
+Step 36000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 299.288 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Step 30000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 141.198 effective soft-root-attached cells.
+Step 46000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 343.51 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 891.3 effective soft-root-attached cells.
+Step 37000: periodic soft-root-attachment parameter refit.
+Step 31000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 891.3 effective soft-root-attached cells.
+Step 38000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 141.236 effective soft-root-attached cells.
+Step 47000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 290.665 effective soft-root-attached cells.
+Step 31000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 326.048 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Step 32000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 891.3 effective soft-root-attached cells.
+Step 39000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 141.249 effective soft-root-attached cells.
+Step 48000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 891.3 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 294.694 effective soft-root-attached cells.
+Step 40000: periodic soft-root-attachment parameter refit.
+Step 32000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 317.286 effective soft-root-attached cells.
+Step 33000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 141.251 effective soft-root-attached cells.
+Step 49000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 891.3 effective soft-root-attached cells.
+Step 41000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 303.176 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 141.252 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 891.3 effective soft-root-attached cells.
+Step 33000: periodic soft-root-attachment parameter refit.
+Step 42000: periodic soft-root-attachment parameter refit.
+Step 50000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 309.267 effective soft-root-attached cells.
+Step 34000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 891.3 effective soft-root-attached cells.
+Step 43000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 308.451 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 141.252 effective soft-root-attached cells.
+Step 34000: periodic soft-root-attachment parameter refit.
+Step 51000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 302.284 effective soft-root-attached cells.
+Step 35000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 891.3 effective soft-root-attached cells.
+Step 44000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 141.252 effective soft-root-attached cells.
+Step 52000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 891.3 effective soft-root-attached cells.
+Step 45000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 305.464 effective soft-root-attached cells.
+Step 35000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 297.982 effective soft-root-attached cells.
+Step 36000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 891.3 effective soft-root-attached cells.
+Step 46000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 141.252 effective soft-root-attached cells.
+Step 53000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 891.3 effective soft-root-attached cells.
+Step 47000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 304.929 effective soft-root-attached cells.
+Step 36000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 289.567 effective soft-root-attached cells.
+Step 37000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 141.252 effective soft-root-attached cells.
+Step 54000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 891.3 effective soft-root-attached cells.
+Step 48000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 330.866 effective soft-root-attached cells.
+Step 37000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 141.252 effective soft-root-attached cells.
+Step 55000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 891.3 effective soft-root-attached cells.
+Step 49000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 309.843 effective soft-root-attached cells.
+Step 38000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 141.252 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 891.3 effective soft-root-attached cells.
+Step 50000: periodic soft-root-attachment parameter refit.
+Step 56000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 340.195 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 317.092 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 891.3 effective soft-root-attached cells.
+Step 39000: periodic soft-root-attachment parameter refit.
+Step 51000: periodic soft-root-attachment parameter refit.
+Step 38000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 141.252 effective soft-root-attached cells.
+Step 57000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 891.3 effective soft-root-attached cells.
+Step 52000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 141.252 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 338.802 effective soft-root-attached cells.
+Step 58000: periodic soft-root-attachment parameter refit.
+Step 40000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 349.548 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 892.032 effective soft-root-attached cells.
+Step 53000: periodic soft-root-attachment parameter refit.
+Step 39000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 891.99 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 141.252 effective soft-root-attached cells.
+Step 54000: periodic soft-root-attachment parameter refit.
+Step 59000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 354.163 effective soft-root-attached cells.
+Sample: refit region weights/dropout from Sample: refit region weights/dropout from 355.178892.157 effective soft-root-attached cells.
+ effective soft-root-attached cells.
+Step 41000: periodic soft-root-attachment parameter refit.
+Step 55000: periodic soft-root-attachment parameter refit.
+Step 40000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 141.252 effective soft-root-attached cells.
+Step 60000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 892.204 effective soft-root-attached cells.
+Step 56000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 364.796 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 141.252 effective soft-root-attached cells.
+Step 42000: periodic soft-root-attachment parameter refit.
+Step 61000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 892.219 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 351.557 effective soft-root-attached cells.
+Step 57000: periodic soft-root-attachment parameter refit.
+Step 41000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 892.224 effective soft-root-attached cells.
+Step 58000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 141.252 effective soft-root-attached cells.
+Step 62000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 371.307 effective soft-root-attached cells.
+Step 43000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 911.577 effective soft-root-attached cells.
+Step 59000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 347.191 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 141.252 effective soft-root-attached cells.
+Step 42000: periodic soft-root-attachment parameter refit.
+Step 63000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 911.839 effective soft-root-attached cells.
+Step 60000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 141.252 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Step 64000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 379.641 effective soft-root-attached cells.
+Step 44000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 911.015 effective soft-root-attached cells.
+Step 61000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 355.903 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Step 43000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 141.252 effective soft-root-attached cells.
+Step 65000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 910.613 effective soft-root-attached cells.
+Step 62000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 386.018 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Step 45000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 910.455 effective soft-root-attached cells.
+Step 63000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 141.252 effective soft-root-attached cells.
+Step 66000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 356.76 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Step 44000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 910.234 effective soft-root-attached cells.
+Step 64000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 141.252 effective soft-root-attached cells.
+Step 67000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 390 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 910.165 effective soft-root-attached cells.
+Step 65000: periodic soft-root-attachment parameter refit.
+Step 46000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 358.6 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Step 45000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 910.14 effective soft-root-attached cells.
+Step 66000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 141.252 effective soft-root-attached cells.
+Step 68000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 910.13 effective soft-root-attached cells.
+Step 67000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 400.217 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 364.288 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 141.583 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Step 47000: periodic soft-root-attachment parameter refit.
+Step 69000: periodic soft-root-attachment parameter refit.
+Step 46000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 910.126 effective soft-root-attached cells.
+Step 68000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 141.71 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 910.124 effective soft-root-attached cells.
+Step 70000: periodic soft-root-attachment parameter refit.
+Step 69000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 372.697 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 406.398 effective soft-root-attached cells.
+Step 47000: periodic soft-root-attachment parameter refit.
+Step 48000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 910.123 effective soft-root-attached cells.
+Step 70000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 141.739 effective soft-root-attached cells.
+Step 71000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 910.123 effective soft-root-attached cells.
+Step 71000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 141.714 effective soft-root-attached cells.
+Step 72000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 381.224 effective soft-root-attached cells.
+Step 48000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 910.122 effective soft-root-attached cells.
+Step 72000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 413.475 effective soft-root-attached cells.
+Step 49000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 910.122 effective soft-root-attached cells.
+Step 73000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 141.71 effective soft-root-attached cells.
+Step 73000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 384.885 effective soft-root-attached cells.
+Step 49000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 910.122 effective soft-root-attached cells.
+Step 74000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 421.498 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 146.996 effective soft-root-attached cells.
+Step 50000: periodic soft-root-attachment parameter refit.
+Step 74000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 910.122 effective soft-root-attached cells.
+Step 75000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 910.122 effective soft-root-attached cells.
+Step 76000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 383.95 effective soft-root-attached cells.
+Step 50000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 145.835 effective soft-root-attached cells.
+Step 75000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 910.122 effective soft-root-attached cells.
+Step 77000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 427.854 effective soft-root-attached cells.
+Step 51000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 910.122 effective soft-root-attached cells.
+Step 78000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 380.339 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 145.78 effective soft-root-attached cells.
+Step 76000: periodic soft-root-attachment parameter refit.
+Step 51000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 910.122 effective soft-root-attached cells.
+Step 79000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 425.641 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 145.765 effective soft-root-attached cells.
+Step 77000: periodic soft-root-attachment parameter refit.
+Step 52000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 910.122 effective soft-root-attached cells.
+Step 80000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 377.861 effective soft-root-attached cells.
+Step 52000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 910.122 effective soft-root-attached cells.
+Step 81000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 145.761 effective soft-root-attached cells.
+Step 78000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 910.122 effective soft-root-attached cells.
+Step 82000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 424.162 effective soft-root-attached cells.
+Step 53000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 380.546 effective soft-root-attached cells.
+Step 53000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 910.122 effective soft-root-attached cells.
+Step 83000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 145.76 effective soft-root-attached cells.
+Step 79000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 910.122 effective soft-root-attached cells.
+Step 84000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 422.42 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 384.307 effective soft-root-attached cells.
+Step 54000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 910.122 effective soft-root-attached cells.
+Step 54000: periodic soft-root-attachment parameter refit.
+Step 85000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 145.76 effective soft-root-attached cells.
+Step 80000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 910.122 effective soft-root-attached cells.
+Step 86000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 145.76 effective soft-root-attached cells.
+Step 81000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 910.122 effective soft-root-attached cells.
+Step 87000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 391.917 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 419.836 effective soft-root-attached cells.
+Step 55000: periodic soft-root-attachment parameter refit.
+Step 55000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 910.122 effective soft-root-attached cells.
+Step 88000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 145.76 effective soft-root-attached cells.
+Step 82000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 910.122 effective soft-root-attached cells.
+Step 89000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 394.272 effective soft-root-attached cells.
+Step 56000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 417.372 effective soft-root-attached cells.
+Step 56000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 910.122 effective soft-root-attached cells.
+Step 90000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 145.76 effective soft-root-attached cells.
+Step 83000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 910.122 effective soft-root-attached cells.
+Step 91000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 394.777 effective soft-root-attached cells.
+Step 57000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 415.403 effective soft-root-attached cells.
+Step 57000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 145.76 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 910.122 effective soft-root-attached cells.
+Step 92000: periodic soft-root-attachment parameter refit.
+Step 84000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 910.122 effective soft-root-attached cells.
+Step 93000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 395.269 effective soft-root-attached cells.
+Step 58000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 145.76 effective soft-root-attached cells.
+Step 85000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 900.027 effective soft-root-attached cells.
+Step 94000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 414.626 effective soft-root-attached cells.
+Step 58000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 890.038 effective soft-root-attached cells.
+Step 95000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 394.937 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 145.76 effective soft-root-attached cells.
+Step 59000: periodic soft-root-attachment parameter refit.
+Step 86000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 887.528 effective soft-root-attached cells.
+Step 96000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 887.059 effective soft-root-attached cells.
+Step 97000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 416.584 effective soft-root-attached cells.
+Step 59000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 145.93 effective soft-root-attached cells.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Step 87000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 393.966 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 883.617 effective soft-root-attached cells.
+Step 98000: periodic soft-root-attachment parameter refit.
+Step 60000: periodic soft-root-attachment parameter refit.
+Warning: very low coverage in healthy cells for region(s): TP53_4. Region weight estimates for these regions may be unreliable.
+Sample: refit region weights/dropout from 880.45 effective soft-root-attached cells.
+Step 99000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 145.796 effective soft-root-attached cells.
+Step 88000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 418.146 effective soft-root-attached cells.
+Step 60000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 393.23 effective soft-root-attached cells.
+Step 61000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 145.797 effective soft-root-attached cells.
+Step 89000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 392.928 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 420.156 effective soft-root-attached cells.
+Step 62000: periodic soft-root-attachment parameter refit.
+Step 61000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 145.8 effective soft-root-attached cells.
+Step 90000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 165.512 effective soft-root-attached cells.
+Step 91000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 392.686 effective soft-root-attached cells.
+Step 63000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 421.438 effective soft-root-attached cells.
+Step 62000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 160.566 effective soft-root-attached cells.
+Step 92000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 392.518 effective soft-root-attached cells.
+Step 64000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 422.426 effective soft-root-attached cells.
+Step 63000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 159.923 effective soft-root-attached cells.
+Step 93000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 389.271 effective soft-root-attached cells.
+Step 65000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 423.196 effective soft-root-attached cells.
+Step 64000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 159.871 effective soft-root-attached cells.
+Step 94000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 386.725 effective soft-root-attached cells.
+Step 66000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 425.779 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 159.843 effective soft-root-attached cells.
+Step 95000: periodic soft-root-attachment parameter refit.
+Step 65000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 384.992 effective soft-root-attached cells.
+Step 67000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 159.857 effective soft-root-attached cells.
+Step 96000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 418.814 effective soft-root-attached cells.
+Step 66000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 383.884 effective soft-root-attached cells.
+Step 68000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 159.849 effective soft-root-attached cells.
+Step 97000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 404.926 effective soft-root-attached cells.
+Step 67000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 383.182 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 159.841 effective soft-root-attached cells.
+Step 69000: periodic soft-root-attachment parameter refit.
+Step 98000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 390.05 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 159.84 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 382.735 effective soft-root-attached cells.
+Step 99000: periodic soft-root-attachment parameter refit.
+Step 68000: periodic soft-root-attachment parameter refit.
+Step 70000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 378.357 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 378.786 effective soft-root-attached cells.
+Step 71000: periodic soft-root-attachment parameter refit.
+Step 69000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 387.922 effective soft-root-attached cells.
+Step 72000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 370.414 effective soft-root-attached cells.
+Step 70000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 395.663 effective soft-root-attached cells.
+Step 73000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 365.587 effective soft-root-attached cells.
+Step 71000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 401.622 effective soft-root-attached cells.
+Step 74000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 368.024 effective soft-root-attached cells.
+Step 72000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 402.613 effective soft-root-attached cells.
+Step 75000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 367.408 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 403.132 effective soft-root-attached cells.
+Step 76000: periodic soft-root-attachment parameter refit.
+Step 73000: periodic soft-root-attachment parameter refit.
+Chain 3 completed in 696.370958 seconds.
+Sample: refit region weights/dropout from 403.431 effective soft-root-attached cells.
+Step 77000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 364.793 effective soft-root-attached cells.
+Step 74000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 395.956 effective soft-root-attached cells.
+Step 78000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 365.721 effective soft-root-attached cells.
+Step 75000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 385.344 effective soft-root-attached cells.
+Step 79000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 369.731 effective soft-root-attached cells.
+Step 76000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 374.192 effective soft-root-attached cells.
+Step 80000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 376.741 effective soft-root-attached cells.
+Step 77000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 364.939 effective soft-root-attached cells.
+Step 81000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 384.107 effective soft-root-attached cells.
+Step 78000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 358.004 effective soft-root-attached cells.
+Step 82000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 389.353 effective soft-root-attached cells.
+Step 79000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 349.376 effective soft-root-attached cells.
+Step 83000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 393.586 effective soft-root-attached cells.
+Step 80000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 343.01 effective soft-root-attached cells.
+Step 84000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 396.106 effective soft-root-attached cells.
+Step 81000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 339.439 effective soft-root-attached cells.
+Step 85000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 397.783 effective soft-root-attached cells.
+Step 82000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 336.518 effective soft-root-attached cells.
+Step 86000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 398.858 effective soft-root-attached cells.
+Step 83000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 330.654 effective soft-root-attached cells.
+Step 87000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 398.97 effective soft-root-attached cells.
+Step 84000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 319.796 effective soft-root-attached cells.
+Step 88000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 399.648 effective soft-root-attached cells.
+Step 85000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 316.942 effective soft-root-attached cells.
+Step 89000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 401.121 effective soft-root-attached cells.
+Step 86000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 316.561 effective soft-root-attached cells.
+Step 90000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 401.604 effective soft-root-attached cells.
+Step 87000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 314.368 effective soft-root-attached cells.
+Step 91000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 401.756 effective soft-root-attached cells.
+Step 88000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 312.065 effective soft-root-attached cells.
+Step 92000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 401.861 effective soft-root-attached cells.
+Step 89000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 314.892 effective soft-root-attached cells.
+Step 93000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 401.902 effective soft-root-attached cells.
+Chain 1 completed in 912.767298 seconds.
+Step 90000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 320.835 effective soft-root-attached cells.
+Step 94000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 401.904 effective soft-root-attached cells.
+Step 91000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 325.492 effective soft-root-attached cells.
+Step 95000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 403.607 effective soft-root-attached cells.
+Step 92000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 329.267 effective soft-root-attached cells.
+Step 96000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 398.103 effective soft-root-attached cells.
+Step 93000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 332.431 effective soft-root-attached cells.
+Step 97000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 394.051 effective soft-root-attached cells.
+Step 94000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 335.005 effective soft-root-attached cells.
+Step 98000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 391.407 effective soft-root-attached cells.
+Step 95000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 337.32 effective soft-root-attached cells.
+Step 99000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 390.121 effective soft-root-attached cells.
+Step 96000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 389.036 effective soft-root-attached cells.
+Step 97000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 388.108 effective soft-root-attached cells.
+Step 98000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 384.831 effective soft-root-attached cells.
+Step 99000: periodic soft-root-attachment parameter refit.
+Chain 2 completed in 1243.783724 seconds.
+Chain 0 completed in 1290.832931 seconds.
+Completed! Output written to real_data/AML/AML-48/SCATI/results

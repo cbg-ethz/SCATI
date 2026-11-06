@@ -1,0 +1,22 @@
+{"nodes":[
+	{
+		"name": "Node 0",
+		"parent": "-",
+		"events": []
+	},
+	{
+		"name": "Node 1",
+		"parent": "Node 0",
+		"events": [{"type":"CNA","region_indices":[33,34],"CNA_change":-1,"affected_strand":1,"affected_strand2":-1,"aneuploidy":true,"fgd":false,"chromosome":"16"},{"type":"SNV","locus":21,"affected_strand":1,"affected_allele":1},{"type":"CNA","region_indices":[37],"CNA_change":1,"affected_strand":1,"affected_strand2":-1,"aneuploidy":false,"fgd":false,"chromosome":"17"},{"type":"CNA","region_indices":[8],"CNA_change":-1,"affected_strand":1,"affected_strand2":-1,"aneuploidy":false,"fgd":false,"chromosome":"4"},{"type":"CNA","region_indices":[1],"CNA_change":-1,"affected_strand":1,"affected_strand2":-1,"aneuploidy":false,"fgd":false,"chromosome":"1"},{"type":"CNA","region_indices":[22,23],"CNA_change":-1,"affected_strand":1,"affected_strand2":-1,"aneuploidy":false,"fgd":false,"chromosome":"12"},{"type":"CNA","region_indices":[5],"CNA_change":1,"affected_strand":0,"affected_strand2":-1,"aneuploidy":false,"fgd":false,"chromosome":"2"},{"type":"CNA","region_indices":[14],"CNA_change":-1,"affected_strand":0,"affected_strand2":-1,"aneuploidy":false,"fgd":false,"chromosome":"7"},{"type":"CNA","region_indices":[15],"CNA_change":-1,"affected_strand":1,"affected_strand2":-1,"aneuploidy":true,"fgd":false,"chromosome":"9"},{"type":"CNA","region_indices":[42],"CNA_change":0,"affected_strand":1,"affected_strand2":0,"aneuploidy":false,"fgd":false,"chromosome":"20"},{"type":"CNA","region_indices":[19,20],"CNA_change":-1,"affected_strand":0,"affected_strand2":-1,"aneuploidy":false,"fgd":false,"chromosome":"11"}]
+	},
+	{
+		"name": "Node 2",
+		"parent": "Node 0",
+		"events": [{"type":"CNA","region_indices":[],"CNA_change":1,"affected_strand":-1,"affected_strand2":-1,"aneuploidy":false,"fgd":true,"chromosome":""},{"type":"SNV","locus":9,"affected_strand":1,"affected_allele":1}]
+	},
+	{
+		"name": "Node 3",
+		"parent": "Node 0",
+		"events": [{"type":"SNV","locus":16,"affected_strand":0,"affected_allele":1},{"type":"CNA","region_indices":[2],"CNA_change":0,"affected_strand":1,"affected_strand2":0,"aneuploidy":false,"fgd":false,"chromosome":"2"}]
+	}
+]}

@@ -1,0 +1,1171 @@
+No burn-in provided. Using half chain length.
+Using filtered variants file: real_data/AML/AML-23/SCATI/AML-23_variants_filtered.csv
+Using filtered regions file: real_data/AML/AML-23/SCATI/AML-23_regions_filtered.csv
+Output directory already exists: real_data/AML/AML-23/SCATI/results
+Starting 4 MCMC chains in parallel
+Chain 0: Start tree inference.
+Chain 2: Start tree inference.
+Chain 1: Start tree inference.
+Chain 3: Start tree inference.
+Sample: refit region weights/dropout from 1634 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 1634 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 1634 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 1634 effective soft-root-attached cells.
+Sample: only 90.4826 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 1000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 179.319 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 164.862 effective soft-root-attached cells.
+Step 1000: periodic soft-root-attachment parameter refit.
+Step 1000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 818.972 effective soft-root-attached cells.
+Step 1000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 101.656 effective soft-root-attached cells.
+Step 2000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0525371) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 161.564 effective soft-root-attached cells.
+Step 2000: periodic soft-root-attachment parameter refit.
+Sample: only 82.8639 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 2000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 398.384 effective soft-root-attached cells.
+Step 3000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0525371) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 234.936 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 901.365 effective soft-root-attached cells.
+Step 2000: periodic soft-root-attachment parameter refit.
+Step 3000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0529518) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0501491) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 286.267 effective soft-root-attached cells.
+Step 3000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 374.826 effective soft-root-attached cells.
+Step 4000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 730.264 effective soft-root-attached cells.
+Step 4000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 215.201 effective soft-root-attached cells.
+Step 3000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0526407) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 266.444 effective soft-root-attached cells.
+Sample: only 92.2415 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 5000: periodic soft-root-attachment parameter refit.
+Step 4000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0509237) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 524.686 effective soft-root-attached cells.
+Step 5000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0522412) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 210.951 effective soft-root-attached cells.
+Step 4000: periodic soft-root-attachment parameter refit.
+Sample: only 92.2415 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 6000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 244.763 effective soft-root-attached cells.
+Step 5000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0542692) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0577824) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: only 92.2415 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 7000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.053455) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: only 84.8698 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 5000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 341.883 effective soft-root-attached cells.
+Step 6000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 212.778 effective soft-root-attached cells.
+Step 6000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0542692) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: only 92.2415 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 8000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 191.129 effective soft-root-attached cells.
+Step 6000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0569437) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: only 92.2415 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 9000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 193.234 effective soft-root-attached cells.
+Warning: dropout rate (0.0573432) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 7000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0637383) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 169.763 effective soft-root-attached cells.
+Warning: dropout rate (0.0583252) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 7000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 405.773 effective soft-root-attached cells.
+Sample: only 93.8383 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 10000: periodic soft-root-attachment parameter refit.
+Step 7000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 187.204 effective soft-root-attached cells.
+Step 8000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0589962) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: only 93.8383 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 11000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0588284) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 164.387 effective soft-root-attached cells.
+Step 8000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 184.578 effective soft-root-attached cells.
+Step 9000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0694868) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0595786) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: only 93.8383 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 12000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 350.961 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 161.682 effective soft-root-attached cells.
+Step 8000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0589962) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 9000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 196.34 effective soft-root-attached cells.
+Step 10000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0598104) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: only 93.8383 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 13000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 160.813 effective soft-root-attached cells.
+Step 10000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0573828) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0729359) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: only 93.8383 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 14000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 180.113 effective soft-root-attached cells.
+Warning: dropout rate (0.0599141) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 11000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 287.346 effective soft-root-attached cells.
+Step 9000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 165.361 effective soft-root-attached cells.
+Step 11000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0575751) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: only 93.8383 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 15000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0592676) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 183.282 effective soft-root-attached cells.
+Step 12000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 164.724 effective soft-root-attached cells.
+Step 12000: periodic soft-root-attachment parameter refit.
+Sample: only 93.8383 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 16000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0576147) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0593072) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 181.638 effective soft-root-attached cells.
+Step 13000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0792914) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: only 93.8383 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 17000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 160.063 effective soft-root-attached cells.
+Step 13000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 238.273 effective soft-root-attached cells.
+Warning: dropout rate (0.0576147) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 10000: periodic soft-root-attachment parameter refit.
+Sample: only 93.8383 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 18000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0595145) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 182.032 effective soft-root-attached cells.
+Step 14000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 159.567 effective soft-root-attached cells.
+Step 14000: periodic soft-root-attachment parameter refit.
+Sample: only 93.8383 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 19000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0592676) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 330.894 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 172.232 effective soft-root-attached cells.
+Warning: dropout rate (0.078349) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 20000: periodic soft-root-attachment parameter refit.
+Step 15000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0576543) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 197.419 effective soft-root-attached cells.
+Step 11000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0572792) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 172.813 effective soft-root-attached cells.
+Step 15000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 322.471 effective soft-root-attached cells.
+Step 21000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 150.523 effective soft-root-attached cells.
+Step 16000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0585966) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 323.618 effective soft-root-attached cells.
+Step 22000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 153.802 effective soft-root-attached cells.
+Step 17000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0597067) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 323.511 effective soft-root-attached cells.
+Step 23000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 163.672 effective soft-root-attached cells.
+Warning: dropout rate (0.0585966) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 16000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 152.182 effective soft-root-attached cells.
+Step 18000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 323.635 effective soft-root-attached cells.
+Step 24000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0831552) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 159.842 effective soft-root-attached cells.
+Step 12000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0592676) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 323.581 effective soft-root-attached cells.
+Step 25000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0587003) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 160.253 effective soft-root-attached cells.
+Step 17000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 146.423 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 324.264 effective soft-root-attached cells.
+Step 19000: periodic soft-root-attachment parameter refit.
+Step 26000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 323.882 effective soft-root-attached cells.
+Step 27000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.081048) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0595145) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0603287) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 130.689 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 219.694 effective soft-root-attached cells.
+Step 28000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 160.013 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 135.809 effective soft-root-attached cells.
+Step 13000: periodic soft-root-attachment parameter refit.
+Step 18000: periodic soft-root-attachment parameter refit.
+Step 20000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0502132) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 391.416 effective soft-root-attached cells.
+Step 29000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.060585) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.059539) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0630277) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 132.861 effective soft-root-attached cells.
+Step 21000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 159.471 effective soft-root-attached cells.
+Warning: dropout rate (0.085415) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 19000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 436.358 effective soft-root-attached cells.
+Step 30000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 115.99 effective soft-root-attached cells.
+Step 14000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0608564) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0678584) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 131.766 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 351.36 effective soft-root-attached cells.
+Step 22000: periodic soft-root-attachment parameter refit.
+Step 31000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 159.45 effective soft-root-attached cells.
+Step 20000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0875071) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0751713) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 107.783 effective soft-root-attached cells.
+Warning: dropout rate (0.0609997) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 309.688 effective soft-root-attached cells.
+Step 32000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 15000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 131.671 effective soft-root-attached cells.
+Step 23000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 159.344 effective soft-root-attached cells.
+Step 21000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0761777) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0610393) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 248.805 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 131.516 effective soft-root-attached cells.
+Step 33000: periodic soft-root-attachment parameter refit.
+Step 24000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 159.295 effective soft-root-attached cells.
+Step 22000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0872752) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: only 97.5813 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 16000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0787881) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 217.064 effective soft-root-attached cells.
+Warning: dropout rate (0.0610638) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 34000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 131.534 effective soft-root-attached cells.
+Step 25000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0872752) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 159.034 effective soft-root-attached cells.
+Step 23000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 102.978 effective soft-root-attached cells.
+Step 17000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.082405) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 200.322 effective soft-root-attached cells.
+Step 35000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0610638) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 131.497 effective soft-root-attached cells.
+Warning: dropout rate (0.0596427) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 26000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 159.193 effective soft-root-attached cells.
+Step 24000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0838261) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 189.93 effective soft-root-attached cells.
+Step 36000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0869398) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0610638) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: only 97.3631 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 18000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 131.508 effective soft-root-attached cells.
+Step 27000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0855187) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 159.309 effective soft-root-attached cells.
+Step 25000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 185.553 effective soft-root-attached cells.
+Step 37000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0869398) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0610638) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: only 98.952 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 19000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 131.499 effective soft-root-attached cells.
+Step 28000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0856864) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 159.326 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 178.773 effective soft-root-attached cells.
+Step 26000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0610638) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 38000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0869398) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 535.736 effective soft-root-attached cells.
+Step 29000: periodic soft-root-attachment parameter refit.
+Sample: only 99.9528 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 20000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0637779) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.086772) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0869398) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 471.855 effective soft-root-attached cells.
+Step 30000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 159.34 effective soft-root-attached cells.
+Step 27000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 173.238 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 106.554 effective soft-root-attached cells.
+Step 39000: periodic soft-root-attachment parameter refit.
+Step 21000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.068944) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 456.457 effective soft-root-attached cells.
+Step 31000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0874185) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 159.335 effective soft-root-attached cells.
+Warning: dropout rate (0.0694868) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 157.318 effective soft-root-attached cells.
+Step 28000: periodic soft-root-attachment parameter refit.
+Step 40000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 429.001 effective soft-root-attached cells.
+Step 32000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0849362) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 104.019 effective soft-root-attached cells.
+Step 22000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0721613) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0878181) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 416.194 effective soft-root-attached cells.
+Step 33000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 139.584 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 159.338 effective soft-root-attached cells.
+Step 41000: periodic soft-root-attachment parameter refit.
+Step 29000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0716185) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 407.765 effective soft-root-attached cells.
+Step 34000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0916423) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0845367) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 125.4 effective soft-root-attached cells.
+Step 42000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 102.709 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Warning: dropout rate (0.072265) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 30000: periodic soft-root-attachment parameter refit.
+Step 23000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 337.007 effective soft-root-attached cells.
+Step 35000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0749395) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0921059) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 306.003 effective soft-root-attached cells.
+Step 36000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 120.102 effective soft-root-attached cells.
+Step 43000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Step 31000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0848477) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 102.303 effective soft-root-attached cells.
+Warning: dropout rate (0.077367) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 24000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 284.996 effective soft-root-attached cells.
+Step 37000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Step 32000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0917459) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0770315) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: only 98.3859 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 44000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 261.319 effective soft-root-attached cells.
+Step 38000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0849118) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 101.965 effective soft-root-attached cells.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0789955) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 25000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0917459) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Step 33000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 251.74 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 101.609 effective soft-root-attached cells.
+Step 39000: periodic soft-root-attachment parameter refit.
+Step 45000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0790992) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0849362) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 240.805 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Step 34000: periodic soft-root-attachment parameter refit.
+Step 40000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 102.042 effective soft-root-attached cells.
+Step 26000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0909958) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 107.636 effective soft-root-attached cells.
+Warning: dropout rate (0.0797701) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 46000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 228.105 effective soft-root-attached cells.
+Step 41000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Step 35000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0850154) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0802489) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: only 95.7713 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 27000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0875863) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 211.509 effective soft-root-attached cells.
+Step 42000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: only 96.6439 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 47000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Step 36000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0850154) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: only 98.2776 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 28000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0875863) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0822769) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 208.19 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 105.279 effective soft-root-attached cells.
+Step 43000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 48000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Step 37000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0850154) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: only 95.7532 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 29000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0779494) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 180.487 effective soft-root-attached cells.
+Step 44000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0882572) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Step 38000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0850154) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 104.88 effective soft-root-attached cells.
+Step 49000: periodic soft-root-attachment parameter refit.
+Sample: only 95.7532 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 30000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0818377) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0850154) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 164.116 effective soft-root-attached cells.
+Step 45000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Step 39000: periodic soft-root-attachment parameter refit.
+Sample: only 95.7532 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 31000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0881931) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 103.032 effective soft-root-attached cells.
+Step 50000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0850154) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0821336) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: only 95.7532 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 32000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 151.626 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Step 40000: periodic soft-root-attachment parameter refit.
+Step 46000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0850154) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0871716) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: only 95.0855 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 33000: periodic soft-root-attachment parameter refit.
+Sample: only 99.4551 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 51000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0844085) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 144.629 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Step 41000: periodic soft-root-attachment parameter refit.
+Step 47000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0850154) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: only 93.7258 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 34000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0871716) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: only 99.4551 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 52000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0838261) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0850154) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Step 42000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0871716) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 133.429 effective soft-root-attached cells.
+Sample: only 93.7258 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 35000: periodic soft-root-attachment parameter refit.
+Step 48000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 101.559 effective soft-root-attached cells.
+Step 53000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0850154) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 108.012 effective soft-root-attached cells.
+Warning: dropout rate (0.083698) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 36000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Step 43000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 119.228 effective soft-root-attached cells.
+Step 49000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0875467) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 103.943 effective soft-root-attached cells.
+Step 54000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Warning: dropout rate (0.0840975) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 44000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0791632) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 116.167 effective soft-root-attached cells.
+Step 50000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 105.293 effective soft-root-attached cells.
+Step 37000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0848081) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: only 98.8095 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 55000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Step 45000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0803374) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 108.117 effective soft-root-attached cells.
+Warning: dropout rate (0.0848081) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 51000: periodic soft-root-attachment parameter refit.
+Sample: only 96.7615 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 56000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0794591) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 104.335 effective soft-root-attached cells.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 38000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Step 46000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0848081) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 101.78 effective soft-root-attached cells.
+Warning: dropout rate (0.0828197) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 57000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 106.046 effective soft-root-attached cells.
+Step 52000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Warning: dropout rate (0.079706) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 47000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 103.826 effective soft-root-attached cells.
+Step 39000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0820055) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0827801) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: only 93.8333 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 58000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 104.37 effective soft-root-attached cells.
+Step 53000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Step 48000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0820055) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: only 93.8333 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 59000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0798342) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0833229) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 103.644 effective soft-root-attached cells.
+Warning: dropout rate (0.0820055) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 40000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 105.564 effective soft-root-attached cells.
+Step 54000: periodic soft-root-attachment parameter refit.
+Sample: only 91.278 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 60000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Step 49000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0820055) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 100.889 effective soft-root-attached cells.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 61000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0826123) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0798983) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Step 50000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 105.693 effective soft-root-attached cells.
+Sample: only 96.3313 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 41000: periodic soft-root-attachment parameter refit.
+Step 55000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0852472) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0798983) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 106.292 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Step 62000: periodic soft-root-attachment parameter refit.
+Sample: only 94.3311 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 42000: periodic soft-root-attachment parameter refit.
+Step 51000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0826368) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 106.078 effective soft-root-attached cells.
+Step 56000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0798983) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: only 98.0566 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 43000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Warning: dropout rate (0.0832588) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 52000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 105.8 effective soft-root-attached cells.
+Warning: dropout rate (0.0825727) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 63000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0798983) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 107.089 effective soft-root-attached cells.
+Step 57000: periodic soft-root-attachment parameter refit.
+Sample: only 99.5789 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 44000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Step 53000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0798983) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0833229) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: only 99.5789 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 45000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 107.329 effective soft-root-attached cells.
+Warning: dropout rate (0.0823013) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 64000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 107.2 effective soft-root-attached cells.
+Step 58000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0798983) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Step 54000: periodic soft-root-attachment parameter refit.
+Sample: only 99.5789 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 46000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0815267) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0829478) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0798983) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 102.627 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 107.62 effective soft-root-attached cells.
+Step 59000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: only 99.5789 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 47000: periodic soft-root-attachment parameter refit.
+Step 65000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Step 55000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0798983) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: only 99.5789 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 48000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0842257) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 108.224 effective soft-root-attached cells.
+Warning: dropout rate (0.0828197) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 60000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 107.747 effective soft-root-attached cells.
+Step 66000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Warning: dropout rate (0.0798983) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 56000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 102.608 effective soft-root-attached cells.
+Step 49000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0819018) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 109.981 effective soft-root-attached cells.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 61000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0828442) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Step 57000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 107.959 effective soft-root-attached cells.
+Step 67000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0817981) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 108.858 effective soft-root-attached cells.
+Warning: dropout rate (0.0831156) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 50000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 112.661 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Step 58000: periodic soft-root-attachment parameter refit.
+Step 62000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0827801) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 108.048 effective soft-root-attached cells.
+Step 68000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0806484) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0811516) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 108.656 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 112.456 effective soft-root-attached cells.
+Step 59000: periodic soft-root-attachment parameter refit.
+Step 63000: periodic soft-root-attachment parameter refit.
+Step 51000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0827801) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 108.091 effective soft-root-attached cells.
+Step 69000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0811912) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Step 60000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 112.828 effective soft-root-attached cells.
+Step 64000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0806088) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0827801) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 109.145 effective soft-root-attached cells.
+Step 52000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 108.103 effective soft-root-attached cells.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 70000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Step 61000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0810876) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 112.846 effective soft-root-attached cells.
+Step 65000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0827801) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0805051) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 108.106 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 109.973 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Step 62000: periodic soft-root-attachment parameter refit.
+Step 71000: periodic soft-root-attachment parameter refit.
+Step 53000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0810876) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 112.902 effective soft-root-attached cells.
+Step 66000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Step 63000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0827801) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0804807) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 108.106 effective soft-root-attached cells.
+Warning: dropout rate (0.0810876) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 108.078 effective soft-root-attached cells.
+Step 72000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 117.014 effective soft-root-attached cells.
+Step 54000: periodic soft-root-attachment parameter refit.
+Step 67000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Step 64000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0827801) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 108.106 effective soft-root-attached cells.
+Warning: dropout rate (0.0821336) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 73000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 121.994 effective soft-root-attached cells.
+Step 68000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0788918) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 102.242 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Step 65000: periodic soft-root-attachment parameter refit.
+Step 55000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0827801) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0809839) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 108.106 effective soft-root-attached cells.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 123.741 effective soft-root-attached cells.
+Step 74000: periodic soft-root-attachment parameter refit.
+Step 69000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Step 66000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0798097) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 100.187 effective soft-root-attached cells.
+Step 56000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0827801) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 108.106 effective soft-root-attached cells.
+Warning: dropout rate (0.0807521) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 75000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 127.651 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Step 70000: periodic soft-root-attachment parameter refit.
+Step 67000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0801697) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: only 98.7896 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 57000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0827801) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0804166) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 108.106 effective soft-root-attached cells.
+Step 76000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 131.25 effective soft-root-attached cells.
+Step 68000: periodic soft-root-attachment parameter refit.
+Step 71000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0801697) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 100.385 effective soft-root-attached cells.
+Step 58000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Step 69000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0798342) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0827801) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 133.256 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 108.106 effective soft-root-attached cells.
+Step 72000: periodic soft-root-attachment parameter refit.
+Step 77000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0806088) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Step 70000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 101.066 effective soft-root-attached cells.
+Warning: dropout rate (0.0796024) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 59000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 134.611 effective soft-root-attached cells.
+Warning: dropout rate (0.0827801) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 73000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 106.486 effective soft-root-attached cells.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 78000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Step 71000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.079395) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0804411) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 134.773 effective soft-root-attached cells.
+Step 74000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 105.8 effective soft-root-attached cells.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 60000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Step 72000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0822769) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 104.787 effective soft-root-attached cells.
+Step 79000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0793554) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 130.818 effective soft-root-attached cells.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 75000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Warning: dropout rate (0.0805447) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 73000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 103.228 effective soft-root-attached cells.
+Step 61000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0822769) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0789955) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 103.82 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 125.692 effective soft-root-attached cells.
+Step 80000: periodic soft-root-attachment parameter refit.
+Step 74000: periodic soft-root-attachment parameter refit.
+Step 76000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0816304) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 105.675 effective soft-root-attached cells.
+Step 62000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0796024) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Step 75000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 124.468 effective soft-root-attached cells.
+Warning: dropout rate (0.0820055) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 77000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 104.867 effective soft-root-attached cells.
+Step 81000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0812949) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Step 76000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 107.743 effective soft-root-attached cells.
+Warning: dropout rate (0.0799379) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 63000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 123.941 effective soft-root-attached cells.
+Step 78000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0819263) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 103.949 effective soft-root-attached cells.
+Step 77000: periodic soft-root-attachment parameter refit.
+Step 82000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0811516) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 109.686 effective soft-root-attached cells.
+Warning: dropout rate (0.0800019) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 64000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 126.016 effective soft-root-attached cells.
+Step 79000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 159.337 effective soft-root-attached cells.
+Step 78000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0820299) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 103.277 effective soft-root-attached cells.
+Step 83000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0800415) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0807766) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0596182) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 128.766 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 110.517 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 293.09 effective soft-root-attached cells.
+Step 79000: periodic soft-root-attachment parameter refit.
+Step 80000: periodic soft-root-attachment parameter refit.
+Step 65000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0596823) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 300.22 effective soft-root-attached cells.
+Step 80000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0819018) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0796268) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 102.671 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 130.062 effective soft-root-attached cells.
+Warning: dropout rate (0.0806088) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 81000: periodic soft-root-attachment parameter refit.
+Step 84000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 112.708 effective soft-root-attached cells.
+Step 66000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0599781) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 294.431 effective soft-root-attached cells.
+Step 81000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.079395) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 126.056 effective soft-root-attached cells.
+Step 82000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0604569) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0809594) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0816304) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 294.902 effective soft-root-attached cells.
+Step 82000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 117.244 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 101.799 effective soft-root-attached cells.
+Step 67000: periodic soft-root-attachment parameter refit.
+Step 85000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.081048) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 126.108 effective soft-root-attached cells.
+Warning: dropout rate (0.0604173) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 83000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 295.115 effective soft-root-attached cells.
+Step 83000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0802733) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 118.713 effective soft-root-attached cells.
+Step 68000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0604173) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0810876) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0817981) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 295.16 effective soft-root-attached cells.
+Step 84000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 125.775 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 103.108 effective soft-root-attached cells.
+Step 84000: periodic soft-root-attachment parameter refit.
+Step 86000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0603928) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0799775) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 295.208 effective soft-root-attached cells.
+Warning: dropout rate (0.0811516) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 119.601 effective soft-root-attached cells.
+Step 85000: periodic soft-root-attachment parameter refit.
+Step 69000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 125.709 effective soft-root-attached cells.
+Step 85000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0603928) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0804411) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 295.218 effective soft-root-attached cells.
+Sample: only 99.5905 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 87000: periodic soft-root-attachment parameter refit.
+Step 86000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0811912) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 127.28 effective soft-root-attached cells.
+Warning: dropout rate (0.0798097) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 86000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 120.099 effective soft-root-attached cells.
+Warning: dropout rate (0.0603928) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 70000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0804411) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 295.224 effective soft-root-attached cells.
+Step 87000: periodic soft-root-attachment parameter refit.
+Sample: only 99.5713 effective cells attached to root (< 100) -- keeping previous region weight/dropout estimate.
+Step 88000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0810876) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 128.375 effective soft-root-attached cells.
+Warning: dropout rate (0.0603928) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 87000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 551.4 effective soft-root-attached cells.
+Warning: dropout rate (0.0804411) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 88000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0797701) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 103.595 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 123.641 effective soft-root-attached cells.
+Step 89000: periodic soft-root-attachment parameter refit.
+Step 71000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0634028) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0808162) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 480.554 effective soft-root-attached cells.
+Step 89000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 128.858 effective soft-root-attached cells.
+Step 88000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0685689) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 453.168 effective soft-root-attached cells.
+Step 90000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0797305) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 125.499 effective soft-root-attached cells.
+Step 72000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0682975) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0807766) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 437.323 effective soft-root-attached cells.
+Warning: dropout rate (0.0809594) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 91000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 129.261 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 107.775 effective soft-root-attached cells.
+Step 89000: periodic soft-root-attachment parameter refit.
+Step 90000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0683371) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 433.473 effective soft-root-attached cells.
+Step 92000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.079395) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 126.301 effective soft-root-attached cells.
+Step 73000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0807125) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0675869) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 129.462 effective soft-root-attached cells.
+Step 90000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 400.528 effective soft-root-attached cells.
+Step 93000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0681053) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0804807) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0792273) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 394.39 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 113.357 effective soft-root-attached cells.
+Step 94000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.080688) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 125.497 effective soft-root-attached cells.
+Step 91000: periodic soft-root-attachment parameter refit.
+Step 74000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 129.183 effective soft-root-attached cells.
+Step 91000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0682975) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 370.527 effective soft-root-attached cells.
+Step 95000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0807125) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0794346) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 129.387 effective soft-root-attached cells.
+Warning: dropout rate (0.0691513) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 92000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 124.524 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 349.636 effective soft-root-attached cells.
+Warning: dropout rate (0.0795628) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 75000: periodic soft-root-attachment parameter refit.
+Step 96000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 118.645 effective soft-root-attached cells.
+Step 92000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0688799) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0807125) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 335.713 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 129.515 effective soft-root-attached cells.
+Step 97000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0794987) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 93000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 123.658 effective soft-root-attached cells.
+Step 76000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0695905) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0790596) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 324.908 effective soft-root-attached cells.
+Warning: dropout rate (0.080688) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 98000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 119.61 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 129.586 effective soft-root-attached cells.
+Step 93000: periodic soft-root-attachment parameter refit.
+Step 94000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0795628) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0698864) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 126.43 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 325.467 effective soft-root-attached cells.
+Step 99000: periodic soft-root-attachment parameter refit.
+Step 77000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.080688) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 128.217 effective soft-root-attached cells.
+Step 95000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0786845) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0802489) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 112.188 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 130.14 effective soft-root-attached cells.
+Step 94000: periodic soft-root-attachment parameter refit.
+Step 78000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0802093) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 125.05 effective soft-root-attached cells.
+Step 96000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0798738) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0805843) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.080377) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 131.306 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 123.495 effective soft-root-attached cells.
+SampleStep 79000: periodic soft-root-attachment parameter refit.
+: refit region weights/dropout from 114.154 effective soft-root-attached cells.
+Step 97000: periodic soft-root-attachment parameter refit.
+Step 95000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0808558) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 122.507 effective soft-root-attached cells.
+Warning: dropout rate (0.0790992) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 98000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 126.341 effective soft-root-attached cells.
+Step 80000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0808162) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 113.782 effective soft-root-attached cells.
+Step 96000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0809839) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 121.956 effective soft-root-attached cells.
+Step 99000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0799379) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 125.697 effective soft-root-attached cells.
+Step 81000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0809839) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 114.171 effective soft-root-attached cells.
+Step 97000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0807125) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 123.598 effective soft-root-attached cells.
+Step 82000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0808802) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 114.028 effective soft-root-attached cells.
+Warning: dropout rate (0.080377) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Step 98000: periodic soft-root-attachment parameter refit.
+Sample: refit region weights/dropout from 121.758 effective soft-root-attached cells.
+Step 83000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0805843) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Warning: dropout rate (0.0809198) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 120.731 effective soft-root-attached cells.
+Sample: refit region weights/dropout from 113.949 effective soft-root-attached cells.
+Step 84000: periodic soft-root-attachment parameter refit.
+Step 99000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.080688) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 120.132 effective soft-root-attached cells.
+Step 85000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0807766) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 116.812 effective soft-root-attached cells.
+Step 86000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0796268) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 114.111 effective soft-root-attached cells.
+Step 87000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0801056) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 112.895 effective soft-root-attached cells.
+Step 88000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0802733) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 113.988 effective soft-root-attached cells.
+Step 89000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0807766) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 115.962 effective soft-root-attached cells.
+Step 90000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0805843) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 117.051 effective soft-root-attached cells.
+Step 91000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0804807) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 117.621 effective soft-root-attached cells.
+Step 92000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0803374) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 117.911 effective soft-root-attached cells.
+Step 93000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0802733) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 118.044 effective soft-root-attached cells.
+Step 94000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0802733) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 118.922 effective soft-root-attached cells.
+Step 95000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0794987) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 118.046 effective soft-root-attached cells.
+Step 96000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0795383) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 117.957 effective soft-root-attached cells.
+Step 97000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0794346) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 117.733 effective soft-root-attached cells.
+Step 98000: periodic soft-root-attachment parameter refit.
+Warning: dropout rate (0.0794591) exceeds 0.05 -- the method-of-moments region-dispersion estimate is imprecise at higher dropout and may be unreliable.
+Sample: refit region weights/dropout from 117.702 effective soft-root-attached cells.
+Step 99000: periodic soft-root-attachment parameter refit.
+Chain 1 completed in 587.719935 seconds.
+Chain 0 completed in 662.380568 seconds.
+Chain 3 completed in 815.813220 seconds.
+Chain 2 completed in 871.015339 seconds.
+Completed! Output written to real_data/AML/AML-23/SCATI/results

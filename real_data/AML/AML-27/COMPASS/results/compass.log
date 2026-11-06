@@ -1,0 +1,13 @@
+The following regions are excluded from the CNA inference because their coverage is too low: NPM1_1_2,JAK2_1,chr14_56969005,SRSF2_2_2,TP53_4,RUNX1_2,RUNX1_4,RUNX1_5,RUNX1_7,
+Starting 4 MCMC chains in parallel
+Chain 3: Starting first phase (finding the best tree without CNA).
+Chain 2: Starting first phase (finding the best tree without CNA).
+Chain 0: Starting first phase (finding the best tree without CNA).
+Chain 1: Starting first phase (finding the best tree without CNA).
+Chain 2: In the tree inferred without CNAs, there were not enough cells attached to the root (0) to estimate the region weights, so COMPASS could not attempt to find CNAs.
+Chain 3: After the first phase (inferring the best tree without CNAs), COMPASS identified the following candidate regions which might contain CNAs: chr16_55770629,
+Chain 3: Starting second phase (finding the best tree with CNA).
+Chain 1: In the tree inferred without CNAs, there were not enough cells attached to the root (26) to estimate the region weights, so COMPASS could not attempt to find CNAs.
+Chain 0: After the first phase (inferring the best tree without CNAs), COMPASS identified the following candidate regions which might contain CNAs: chr16_55770629,
+Chain 0: Starting second phase (finding the best tree with CNA).
+Completed ! The output was written to real_data/AML/AML-27/COMPASS/results/data. You can visualize the tree by running: dot -Tpng real_data/AML/AML-27/COMPASS/results/data_tree.gv -o output.png

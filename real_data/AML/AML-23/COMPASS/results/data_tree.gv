@@ -1,0 +1,26 @@
+digraph G{
+node [color=dimgray fontsize=24 fontcolor=black fontname=Helvetica penwidth=5];
+3 -> 1 [color=dimgray penwidth=4 weight=2];
+3 -> 2 [color=dimgray penwidth=4 weight=2];
+0 -> 3 [color=dimgray penwidth=4 weight=2];
+0 -> 4 [color=dimgray penwidth=4 weight=2];
+1 -> 5 [color=dimgray penwidth=4 weight=2];
+0[label=<chr2.198266943.C_T(SF3B1)(chr2)<br/>chr6.17076840.C_A(chr6)(chr6)<br/>chr7.148504854.A_AGACTT(EZH2)(chr7)<br/>chr10.5554293.T_C(chr10)(chr10)<br/>chr10.106721610.G_A(chr10)(chr10)<br/>chr16.55770629.C_T(chr16)(chr16)<br/>chr17.7578115.T_C(TP53)(chr17)<br/>chr20.31022959.T_C(ASXL1)(chr20)<br/><B>CNLOH SF3B1_1:REF (chr2)</B><br/><B>CNLOH chr6_17076840:REF (chr6)</B><br/><B>CNLOH chr10_106721610:REF (chr10)</B><br/><B>CNLOH chr10_5554293:REF (chr10)</B><br/><B>CNLOH chr16_55770629:REF (chr16)</B><br/><B>CNLOH TP53_1:REF (chr17)</B><br/><B>CNLOH ASXL1_2_a1:REF (chr20)</B><br/>>];
+1[label=<chr11.32417916.A_ACAAGAGTC(WT1)(chr11)<br/>>];
+2[label=<chr1.115256529.T_C(NRAS)(chr1)<br/>>];
+3[label=<chr7.148504716.AG_A(EZH2)(chr7)<br/><B>CNLOH EZH2_1:REF,REF (chr7)</B><br/>>];
+4[label=<<B>CNLOH EZH2_1:REF,REF (chr7)</B><br/>>];
+5[label=<chr1.115258745.C_G(NRAS)(chr1)<br/>>];
+0 -> 6 [dir=none style=dashed weight=1 penwidth=5 color=lightcoral];
+1 -> 7 [dir=none style=dashed weight=1 penwidth=5 color=skyblue3];
+2 -> 8 [dir=none style=dashed weight=1 penwidth=5 color=sandybrown];
+3 -> 9 [dir=none style=dashed weight=1 penwidth=5 color=paleturquoise3];
+4 -> 10 [dir=none style=dashed weight=1 penwidth=5 color=thistle];
+5 -> 11 [dir=none style=dashed weight=1 penwidth=5 color=darkolivegreen3];
+6[label="0 cells\n0\%" style = filled width=0 height=0 color=lightcoral];
+7[label="574 cells\n38\%" style = filled width=2.04369 height=2.04369 color=skyblue3];
+8[label="377 cells\n25\%" style = filled width=1.65627 height=1.65627 color=sandybrown];
+9[label="95 cells\n6\%" style = filled width=0.831421 height=0.831421 color=paleturquoise3];
+10[label="8 cells\n1\%" style = filled width=0.24127 height=0.24127 color=thistle];
+11[label="473 cells\n31\%" style = filled width=1.8552 height=1.8552 color=darkolivegreen3];
+}

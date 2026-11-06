@@ -1,0 +1,38 @@
+digraph G{
+node [color=dimgray fontsize=24 fontcolor=black fontname=Helvetica penwidth=5];
+4 -> 1 [color=dimgray penwidth=4 weight=2];
+0 -> 2 [color=dimgray penwidth=4 weight=2];
+2 -> 3 [color=dimgray penwidth=4 weight=2];
+8 -> 4 [color=dimgray penwidth=4 weight=2];
+0 -> 5 [color=dimgray penwidth=4 weight=2];
+5 -> 6 [color=dimgray penwidth=4 weight=2];
+6 -> 7 [color=dimgray penwidth=4 weight=2];
+3 -> 8 [color=dimgray penwidth=4 weight=2];
+0 [label="Node 0\n" color=lightcoral penwidth=5];
+1 [label="Node 1\nGain chr17 region 3\nLoss chr12 region 2\nLoss chr1 region 2\nGain chr11 region 3\nGain chr2 region 2\nGain chr2 region 4\nLoss chr2 region 1\nGain chr1 region 1\nGain chr21 region 6\n" color=skyblue3 penwidth=5];
+2 [label="Node 2\nchr17.7578146.T_C(TP53)\nchr6.17076840.C_A(chr6)\nAneuploidy Loss chr14 (1 regions)\nchr4.55599436.T_C(KIT)\nchr17.7578115.T_C(TP53)\nchr13.28608283.G_A(FLT3)\nchr21.36252865.C_T(RUNX1)\nGain chr7 regions 1-2\nchr13.28592546.T_C(FLT3)\nchr21.44524290.A_C(U2AF1)\nchr2.209113113.G_A(IDH1)\nchr16.55770629.C_T(chr16)\nchr16.8569820.G_A(chr16)\nchr5.170837457.A_G(NPM1)\nchr11.32414333.G_T(WT1)\nchr2.25457243.G_A(DNMT3A)\n" color=sandybrown penwidth=5];
+3 [label="Node 3\nAneuploidy Loss chr9 (1 regions)\nLoss chr21 region 5\nLoss chr17 region 1\nAneuploidy Loss chr5 (1 regions)\n" color=paleturquoise3 penwidth=5];
+4 [label="Node 4\nLoss chr4 region 2\nLoss chr7 region 2\nLoss chr16 region 2\n" color=thistle penwidth=5];
+5 [label="Node 5\nLoss chr1 region 2\nGain chr10 region 3\nLoss chr4 region 1\nGain chr17 regions 2-3\nLoss chr7 region 2\n" color=darkolivegreen3 penwidth=5];
+6 [label="Node 6\nLoss chr11 regions 1-2\nAneuploidy Loss chr16 (2 regions)\nAneuploidy Loss chr9 (1 regions)\nCNLOH chr6 region 1\nGain chr4 region 1\n" color=lightpink penwidth=5];
+7 [label="Node 7\nLoss chr4 region 2\n" color=mediumpurple penwidth=5];
+8 [label="Node 8\nLoss chr11 regions 1-2\n" color=darkseagreen3 penwidth=5];
+0 -> 9 [dir=none style=dashed weight=1 penwidth=5 color=lightcoral];
+1 -> 10 [dir=none style=dashed weight=1 penwidth=5 color=skyblue3];
+2 -> 11 [dir=none style=dashed weight=1 penwidth=5 color=sandybrown];
+3 -> 12 [dir=none style=dashed weight=1 penwidth=5 color=paleturquoise3];
+4 -> 13 [dir=none style=dashed weight=1 penwidth=5 color=thistle];
+5 -> 14 [dir=none style=dashed weight=1 penwidth=5 color=darkolivegreen3];
+6 -> 15 [dir=none style=dashed weight=1 penwidth=5 color=lightpink];
+7 -> 16 [dir=none style=dashed weight=1 penwidth=5 color=mediumpurple];
+8 -> 17 [dir=none style=dashed weight=1 penwidth=5 color=darkseagreen3];
+9 [label="153 cells\n6%" style=filled width=0.807212 height=0.807212 color=lightcoral];
+10 [label="553 cells\n21%" style=filled width=1.53463 height=1.53463 color=skyblue3];
+11 [label="466 cells\n18%" style=filled width=1.40875 height=1.40875 color=sandybrown];
+12 [label="304 cells\n12%" style=filled width=1.13783 height=1.13783 color=paleturquoise3];
+13 [label="236 cells\n9%" style=filled width=1.00253 height=1.00253 color=thistle];
+14 [label="3 cells\n0%" style=filled width=0.113032 height=0.113032 color=darkolivegreen3];
+15 [label="273 cells\n10%" style=filled width=1.07826 height=1.07826 color=lightpink];
+16 [label="357 cells\n14%" style=filled width=1.23304 height=1.23304 color=mediumpurple];
+17 [label="264 cells\n10%" style=filled width=1.06034 height=1.06034 color=darkseagreen3];
+}

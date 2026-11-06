@@ -1,0 +1,27 @@
+Step 1: build SNV only tree for sample 0
+3: 1168
+1: 4502
+13: 325
+0: 0
+parents
+[3,39,0,39,39,39,39,39,39,39,39,39,1,39,39,39,39,39]
+
+
+
+
+Step 2: growing tree with data from sample 0
+
+
+Time elapsed: 532748 ms
+[write_all_results] checkpoint A: graph_strings built, num_clones=21
+[write_all_results] checkpoint B: attachment_string built, n_cells=5995
+[write_all_results] clone 19 has no gene name (gene_names.size()=19, m=18, num_clones=21, parent=20); using a placeholder
+[write_all_results] clone 20 has no gene name (gene_names.size()=19, m=18, num_clones=21, parent=1); using a placeholder
+[write_all_results] checkpoint C: indices_to_keep.size()=6 graph_strings.size()=5
+[write_all_results] checkpoint D: about to call CNAs_to_matrices, A=21x50 B=21x18
+[write_all_results] checkpoint E: CNAs_to_matrices returned
+[write_all_results] checkpoint F: extract_rows returned, A_prime.size()=6 B_prime.size()=6
+[write_all_results] checkpoint G: genotypes built, about to call adjust_to_contiguous cell_assignments.size()=5995
+[write_all_results] checkpoint H: adjust_to_contiguous returned, size=5995
+[write_out_file] target: real_data/AML/AML-68/LoPhy/results/data_0.gv (absolute: real_data/AML/AML-68/LoPhy/results/data_0.gv)
+[write_out_file] bytes intended: 371435

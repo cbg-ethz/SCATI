@@ -1,0 +1,96 @@
+"""
+Real-data pipeline of the 14 AML samples: filtering of the preprocessed input and one SCATI run per sample.
+
+Input (only read):  AML/<sample>/input/<sample>_{variants,regions}.csv
+Output:             <out_root>/<sample>/SCATI/<sample>_{variants,regions}_filtered.csv, results/
+The default out_root is "rerun", so that the shipped results (AML/<sample>/SCATI/results/) are never overwritten.
+
+Run from real_data/ (SCATI must be built, see the README):
+    snakemake --configfile config_aml.yaml --cores 4 -n                       # dry run
+    snakemake --configfile config_aml.yaml --cores 4                          # all 14 samples, one after the other (about 0.5-1 h each)
+    snakemake --configfile config_aml.yaml --cores 4 rerun/AML-59/SCATI/results/best_tree.gv     # one sample
+    bash run_real_slurm.sbatch                                                # cluster: every sample as its own Slurm job
+Short test:  --config scati_chain_length=200 scati_n_chains=1 out_root=test
+Samples and sexes are listed in AML/patients.tsv. The figures are made by make_paper_figures.py.
+"""
+import os
+import shutil
+
+import pandas as pd
+
+# shell: directives use POSIX syntax: bash on Windows too (Git's bash; Windows' protected-folder blocking stops Cygwin's bash from writing there)
+if os.name == "nt":
+    _bash = next((b for b in ("C:/Program Files/Git/usr/bin/bash.exe", "C:/Program Files/Git/bin/bash.exe") if os.path.isfile(b)),
+                 shutil.which("bash"))
+    if _bash:
+        shell.executable(_bash)
+
+
+def P(*parts):
+    """os.path.join with forward slashes (bash mangles backslash paths in shell: strings)."""
+    return os.path.join(*parts).replace("\\", "/")
+
+
+HERE = P(workflow.basedir)
+ROOT = P(os.path.abspath(os.path.join(workflow.basedir, "..")))
+EXE_EXT = ".exe" if os.name == "nt" else ""
+SCATI_BIN = config.get("scati_bin") or P(ROOT, "build", "SCATI" + EXE_EXT)
+PY = config.get("python", "python")
+
+COHORT = config["cohort_dir"]                         # AML: the input and the shipped results
+OUT = config.get("out_root", "rerun")                 # where the filtered files and the new results are written
+PATIENTS = pd.read_csv(P(HERE, config["patients"]), sep="\t").set_index("patient")
+SAMPLES = list(PATIENTS.index)
+SCATI_FLAGS = " ".join(f"--{k} {v}" for k, v in config["scati_flags"].items())
+
+wildcard_constraints:
+    sample="|".join(SAMPLES)
+
+# with --executor slurm the light steps run inside the driver instead of as Slurm jobs
+localrules: all, filter
+
+
+rule all:
+    input:
+        [P(OUT, s, "SCATI", "results", "best_tree.gv") for s in SAMPLES]
+
+
+rule filter:
+    input:
+        variants=P(COHORT, "{sample}", "input", "{sample}_variants.csv"),
+        regions=P(COHORT, "{sample}", "input", "{sample}_regions.csv")
+    output:
+        variants=P(OUT, "{sample}", "SCATI", "{sample}_variants_filtered.csv"),
+        regions=P(OUT, "{sample}", "SCATI", "{sample}_regions_filtered.csv")
+    params:
+        sample_dir=lambda wc: P(COHORT, wc.sample),
+        out_dir=lambda wc: P(OUT, wc.sample, "SCATI")
+    shell:
+        "{PY} {HERE}/filtering.py --sample_dir {params.sample_dir} --sample {wildcards.sample} --out_dir {params.out_dir} "
+        "--min_avg_region_count {config[min_avg_region_count]}"
+
+
+rule scati:
+    input:
+        bin=SCATI_BIN,
+        variants=rules.filter.output.variants,
+        regions=rules.filter.output.regions
+    output:
+        P(OUT, "{sample}", "SCATI", "results", "best_tree.gv")
+    threads: config["scati_n_chains"]
+    resources:
+        mem_mb=config["scati_mem_mb"],
+        mem_mb_per_cpu=config["scati_mem_mb"] // config["scati_n_chains"],
+        runtime=config["scati_runtime_min"],
+        cpus_per_task=config["scati_n_chains"]
+    params:
+        base=lambda wc: P(OUT, wc.sample, "SCATI", wc.sample),
+        out=lambda wc: P(OUT, wc.sample, "SCATI", "results"),
+        sex=lambda wc: PATIENTS.loc[wc.sample, "sex"]
+    log:
+        P(OUT, "{sample}", "SCATI", "results", "scati.log")
+    shell:
+        "mkdir -p {params.out} && "
+        "{input.bin} -i {params.base} -o {params.out} --n_chains {config[scati_n_chains]} --chain_length {config[scati_chain_length]} "
+        "--sex {params.sex} --target_doublet_rate {config[scati_target_doublet_rate]} --cache_gb {config[scati_cache_gb]} "
+        "{SCATI_FLAGS} --sampling 0 --verbose 0 > {log} 2>&1"

@@ -1,0 +1,11 @@
+The following regions are excluded from the CNA inference because their coverage is too low: MPL_c1,DNMT3A_c10,DNMT3A_c13,DNMT3A_c2,DNMT3A_c22,DNMT3A_c3,DNMT3A_c4,DNMT3A_c6,DNMT3A_c7,DNMT3A_c8,SF3B1_c2,GATA2_c1,GATA2_c2,TET2_c16,TET2_c2,TET2_c21,TET2_c23,TET2_c24,TET2_c9,NPM1_c1,EZH2_c10,EZH2_c2,MYC_c1,MYC_c2,MYC_c4,MYC_c6,RAD21_c2,JAK2_c1,JAK2_c2,SMC3_c3,WT1_c2,ETV6_c1,ETV6_c5,KRAS_c2,NF1_c1,NF1_c2,NF1_c28,NF1_c7,SRSF2_c1,TP53_c6,TP53_c8,SETBP1_c1,CALR_c1,ASXL1_c1,RUNX1_c2,RUNX1_c3,RUNX1_c8,BCOR_c1,BCOR_c10,BCOR_c11,BCOR_c12,BCOR_c13,BCOR_c14,BCOR_c15,BCOR_c16,BCOR_c17,BCOR_c18,BCOR_c19,BCOR_c2,BCOR_c20,BCOR_c21,BCOR_c22,BCOR_c3,BCOR_c4,BCOR_c5,BCOR_c6,BCOR_c7,BCOR_c8,BCOR_c9,KDM6A_c1,KDM6A_c10,KDM6A_c11,KDM6A_c12,KDM6A_c13,KDM6A_c14,KDM6A_c15,KDM6A_c16,KDM6A_c18,KDM6A_c19,KDM6A_c3,KDM6A_c4,KDM6A_c5,KDM6A_c6,KDM6A_c7,KDM6A_c8,KDM6A_c9,PHF6_c2,SMC1A_c3,STAG2_c12,STAG2_c3,STAG2_c4,STAG2_c6,STAG2_c8,STAG2_c9,ZRSR2_c1,ZRSR2_c11,ZRSR2_c2,ZRSR2_c3,ZRSR2_c4,ZRSR2_c8,ZRSR2_c9,
+Starting 4 MCMC chains in parallel
+Chain 0: Starting first phase (finding the best tree without CNA).
+Chain 2: Starting first phase (finding the best tree without CNA).
+Chain 1: Starting first phase (finding the best tree without CNA).
+Chain 3: Starting first phase (finding the best tree without CNA).
+Chain 2: In the tree inferred without CNAs, there were not enough cells attached to the root (4) to estimate the region weights, so COMPASS could not attempt to find CNAs.
+Chain 0: In the tree inferred without CNAs, there were not enough cells attached to the root (34) to estimate the region weights, so COMPASS could not attempt to find CNAs.
+Chain 3: In the tree inferred without CNAs, there were not enough cells attached to the root (34) to estimate the region weights, so COMPASS could not attempt to find CNAs.
+Chain 1: In the tree inferred without CNAs, there were no regions whose coverage in one node were different from the root, so COMPASS could not identify any CNAs.
+Completed ! The output was written to real_data/AML/AML-123/COMPASS/results/data. You can visualize the tree by running: dot -Tpng real_data/AML/AML-123/COMPASS/results/data_tree.gv -o output.png

@@ -1,0 +1,48 @@
+"""Runs SCATI on the phase-test data (phase_test/data/rep0..rep9, from make_phase_data.py).
+
+Three runs per replicate, with the SCATI arguments of the benchmark (SCATI_ARGS from run/Snakefile_run_methods):
+    A  no healthy annotation  -> phase_test/data/rep*/SCATI/results_phase_A/
+    B  healthy-cell annotation  -> .../results_phase_B/
+    C  as B plus the true haplotypes (data_haplotypes.tsv)  -> .../results_phase_C/  (control, phase should be recovered)
+Run from simulations:
+    SNAKEFILE=phase_test/Snakefile_phase TARGET=phase_all SIM_ROOT=phase_test bash run/run_scati_slurm.sbatch --nolock
+"""
+include: "../run/Snakefile_run_methods"
+
+PHASE_REPS = [f"rep{i}" for i in range(int(config.get("phase_reps", 10)))]
+PHASE_MODES = ["A", "B", "C"]
+PHASE_EXTRA = {"A": "--use_healthy_annotation 0", "B": "", "C": "--use_haplotype_annotation 1"}
+
+localrules: phase_all
+
+
+rule phase_all:
+    input:
+        [P(SIM, "data", r, "SCATI", f"results_phase_{m}", "done.txt") for r in PHASE_REPS for m in PHASE_MODES]
+
+
+rule scati_phase:
+    input:
+        bin=SCATI_BIN,
+        data=P(SIM, "data", "{rep}", "SCATI", "data_variants.csv"),
+        hap=lambda wc: P(SIM, "data", wc.rep, "SCATI", "data_haplotypes.tsv") if wc.mode == "C" else []
+    output:
+        P(SIM, "data", "{rep}", "SCATI", "results_phase_{mode}", "done.txt")
+    wildcard_constraints:
+        rep=r"rep\d+", mode="A|B|C"
+    threads: SCATI_N_CHAINS
+    resources:
+        mem_mb=SCATI_MEM_MB,
+        mem_mb_per_cpu=SCATI_MEM_MB // SCATI_N_CHAINS,
+        runtime=SCATI_RUNTIME_MIN,
+        cpus_per_task=SCATI_N_CHAINS
+    params:
+        basename=lambda wc: P(SIM, "data", wc.rep, "SCATI", "data"),
+        outdir=lambda wc: P(SIM, "data", wc.rep, "SCATI", f"results_phase_{wc.mode}"),
+        extra=lambda wc: PHASE_EXTRA[wc.mode]
+    benchmark:
+        P(SIM, "data", "{rep}", "SCATI", "results_phase_{mode}", "benchmark.tsv")
+    shell:
+        "mkdir -p {params.outdir} && "
+        "{input.bin} -i {params.basename} -o {params.outdir} --n_samples 1 " + SCATI_ARGS + " {params.extra} && "
+        "touch {output}"

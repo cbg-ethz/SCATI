@@ -1,0 +1,22 @@
+digraph G{
+node [color=dimgray fontsize=24 fontcolor=black fontname=Helvetica penwidth=5];
+2 -> 1 [color=dimgray penwidth=4 weight=2];
+0 -> 2 [color=dimgray penwidth=4 weight=2];
+2 -> 3 [color=dimgray penwidth=4 weight=2];
+2 -> 4 [color=dimgray penwidth=4 weight=2];
+0[label=<chr2.198266943.C_T(SF3B1)(chr2)<br/>chr4.55599436.T_C(KIT)(chr4)<br/>chr6.62094388.T_C(chr6)(chr6)<br/>chr10.5554293.T_C(chr10)(chr10)<br/>chr17.7578115.T_C(TP53)(chr17)<br/>chr18.9750662.T_C(chr18)(chr18)<br/>chr20.31022959.T_C(ASXL1)(chr20)<br/><B>CNLOH SF3B1_1:REF (chr2)</B><br/><B>CNLOH KIT_1:REF (chr4)</B><br/><B>CNLOH chr10_5554293:REF (chr10)</B><br/><B>CNLOH TP53_1:REF (chr17)</B><br/><B>CNLOH chr18_9750662:REF (chr18)</B><br/><B>CNLOH ASXL1_2_a1:REF (chr20)</B><br/>>];
+1[label=<chr7.148504716.AG_A(EZH2)(chr7)<br/>chr7.148504854.A_AGACTT(EZH2)(chr7)<br/>>];
+2[label=<chr6.62094287.A_T(chr6)(chr6)<br/>chr6.62094328.T_A(chr6)(chr6)<br/>>];
+3[label=<<B>Gain chr6_62094287:ALT,ALT,REF (chr6)</B><br/>>];
+4[label=<<B>Gain chr6_62094287:REF,REF,REF (chr6)</B><br/>>];
+0 -> 5 [dir=none style=dashed weight=1 penwidth=5 color=lightcoral];
+1 -> 6 [dir=none style=dashed weight=1 penwidth=5 color=skyblue3];
+2 -> 7 [dir=none style=dashed weight=1 penwidth=5 color=sandybrown];
+3 -> 8 [dir=none style=dashed weight=1 penwidth=5 color=paleturquoise3];
+4 -> 9 [dir=none style=dashed weight=1 penwidth=5 color=thistle];
+5[label="156 cells\n6\%" style = filled width=0.805119 height=0.805119 color=lightcoral];
+6[label="224 cells\n8\%" style = filled width=0.964766 height=0.964766 color=skyblue3];
+7[label="903 cells\n34\%" style = filled width=1.93705 height=1.93705 color=sandybrown];
+8[label="769 cells\n29\%" style = filled width=1.78756 height=1.78756 color=paleturquoise3];
+9[label="622 cells\n23\%" style = filled width=1.60766 height=1.60766 color=thistle];
+}

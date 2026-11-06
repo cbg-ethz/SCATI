@@ -1,0 +1,34 @@
+{
+"nodes":[
+	{
+		"name": "Node 0",
+		"parent": "-",
+		"SNV": ["chr2.198266943.C_T(SF3B1)","chr6.62094328.T_A(chr6)","chr6.62094287.A_T(chr6)","chr18.9750662.T_C(chr18)","chr4.55599436.T_C(KIT)","chr17.7578115.T_C(TP53)","chr20.31022959.T_C(ASXL1)","chr7.148504854.A_AGACTT(EZH2)","chr2.25457242.C_T(DNMT3A)","chr21.44524290.A_C(U2AF1)","chr6.17076840.C_A(chr6)","chr4.55589790.C_T(KIT)","chr6.62094388.T_C(chr6)","chr16.55770629.C_T(chr16)","chr11.32417945.T_C(WT1)"],
+		"CNA": ["CNLOH SF3B1_1","CNLOH chr6_17076840","CNLOH chr18_9750662","CNLOH ASXL1_2_a1"]
+	},
+	{
+		"name": "Node 1",
+		"parent": "Node 2",
+		"SNV": ["chr7.148504716.AG_A(EZH2)"],
+		"CNA": ["CNLOH EZH2_1"]
+	},
+	{
+		"name": "Node 2",
+		"parent": "Node 0",
+		"SNV": ["chr2.198266862.A_T(SF3B1)"],
+		"CNA": []
+	},
+	{
+		"name": "Node 3",
+		"parent": "Node 1",
+		"SNV": ["chr12.25398285.C_T(KRAS)"],
+		"CNA": []
+	},
+	{
+		"name": "Node 4",
+		"parent": "Node 2",
+		"SNV": [],
+		"CNA": ["CNLOH EZH2_1"]
+	}
+]
+}

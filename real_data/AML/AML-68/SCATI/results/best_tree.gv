@@ -1,0 +1,18 @@
+digraph G{
+node [color=dimgray fontsize=24 fontcolor=black fontname=Helvetica penwidth=5];
+0 -> 1 [color=dimgray penwidth=4 weight=2];
+3 -> 2 [color=dimgray penwidth=4 weight=2];
+1 -> 3 [color=dimgray penwidth=4 weight=2];
+0 [label="Node 0\n" color=lightcoral penwidth=5];
+1 [label="Node 1\nGain chr17 region 3\nLoss chr10 region 2\nLoss chr1 region 2\nAneuploidy Loss chr9 (1 regions)\nGain chr2 region 4\nLoss chr16 region 2\nchr18.9750662.T_C(chr18)\nAneuploidy Loss chr5 (1 regions)\nLoss chr7 region 2\nLoss chr11 regions 1-2\nLoss chr21 region 5\nGain chr17 region 5\nCNLOH chr18 region 1\n" color=skyblue3 penwidth=5];
+2 [label="Node 2\nLoss chr2 region 1\n" color=sandybrown penwidth=5];
+3 [label="Node 3\nLoss chr12 regions 1-2\n" color=paleturquoise3 penwidth=5];
+0 -> 4 [dir=none style=dashed weight=1 penwidth=5 color=lightcoral];
+1 -> 5 [dir=none style=dashed weight=1 penwidth=5 color=skyblue3];
+2 -> 6 [dir=none style=dashed weight=1 penwidth=5 color=sandybrown];
+3 -> 7 [dir=none style=dashed weight=1 penwidth=5 color=paleturquoise3];
+4 [label="2491 cells\n52%" style=filled width=2.4033 height=2.4033 color=lightcoral];
+5 [label="708 cells\n15%" style=filled width=1.28126 height=1.28126 color=skyblue3];
+6 [label="551 cells\n11%" style=filled width=1.13031 height=1.13031 color=sandybrown];
+7 [label="1042 cells\n22%" style=filled width=1.55437 height=1.55437 color=paleturquoise3];
+}
