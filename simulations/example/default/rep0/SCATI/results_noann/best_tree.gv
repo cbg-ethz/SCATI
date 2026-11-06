@@ -1,0 +1,22 @@
+digraph G{
+node [color=dimgray fontsize=24 fontcolor=black fontname=Helvetica penwidth=5];
+0 -> 1 [color=dimgray penwidth=4 weight=2];
+0 -> 2 [color=dimgray penwidth=4 weight=2];
+1 -> 3 [color=dimgray penwidth=4 weight=2];
+3 -> 4 [color=dimgray penwidth=4 weight=2];
+0 [label="Node 0\n" color=lightcoral penwidth=5];
+1 [label="Node 1\nSNV18\nSNV11\nSNV17\nSNV3\n" color=skyblue3 penwidth=5];
+2 [label="Node 2\nSNV8\nSNV9\nSNV15\nAneuploidy Loss chr1 (24 regions)\nSNV19\nGain chr6 regions 1-9\nSNV5\nSNV10\nSNV4\nGain chr9 regions 8-14\n" color=sandybrown penwidth=5];
+3 [label="Node 3\nSNV0\nSNV13\nSNV14\nSNV7\nSNV6\nSNV2\n" color=paleturquoise3 penwidth=5];
+4 [label="Node 4\nGain chr9 regions 3-14\nLoss chr5 regions 18-25\nSNV1\nSNV16\nSNV12\n" color=thistle penwidth=5];
+0 -> 5 [dir=none style=dashed weight=1 penwidth=5 color=lightcoral];
+1 -> 6 [dir=none style=dashed weight=1 penwidth=5 color=skyblue3];
+2 -> 7 [dir=none style=dashed weight=1 penwidth=5 color=sandybrown];
+3 -> 8 [dir=none style=dashed weight=1 penwidth=5 color=paleturquoise3];
+4 -> 9 [dir=none style=dashed weight=1 penwidth=5 color=thistle];
+5 [label="1170 cells\n26%" style=filled width=1.68864 height=1.68864 color=lightcoral];
+6 [label="932 cells\n20%" style=filled width=1.50713 height=1.50713 color=skyblue3];
+7 [label="532 cells\n12%" style=filled width=1.13867 height=1.13867 color=sandybrown];
+8 [label="886 cells\n19%" style=filled width=1.46947 height=1.46947 color=paleturquoise3];
+9 [label="1039 cells\n23%" style=filled width=1.5913 height=1.5913 color=thistle];
+}
