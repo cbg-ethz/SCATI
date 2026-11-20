@@ -552,6 +552,7 @@ double Tree::healthy_snv_loglik_sum(int locus, int c_ref, int c_alt) {
 
 void Tree::change_root_genotype(bool is_warmup)
 {
+    if (n_loci == 0) { hastings_ratio = 0.0; return; } // no locus to change
     std::uniform_int_distribution<int> locus_dist(0, n_loci - 1);
     int locus = locus_dist(rng);
 

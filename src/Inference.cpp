@@ -38,6 +38,11 @@ std::vector<double> Inference::default_move_weights() const {
             1.0,   // 13 Swap CNA (remove one, propose a new one on the same node)
     };
 
+    if (n_loci == 0) { // CNA-only run: no locus for an SNV or a root genotype change
+        weights[2] = 0.0;
+        weights[3] = 0.0;
+        weights[5] = 0.0;
+    }
     if (local_params->use_haplotype_annotation) weights[5] = 0.0; // the annotated root genotype is kept fixed
     return weights;
 }
