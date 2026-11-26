@@ -64,7 +64,8 @@ The true tree is in `simulations/example/default/rep0/SCATI/ground_truth_tree.pn
 
 `-i <prefix>` names the input files of one sample:
 
-* `<prefix>_variants.csv`: one row per variant.
+* `<prefix>_variants.csv`: one row per variant. A file with only the header row (the cell names, no variant rows)
+  runs a CNA-only inference: the SNV moves are disabled and the tree has only CNAs.
 * `<prefix>_regions.csv`: one row per region.
 * `<prefix>.cell_annotation.csv`: cells with `assignment` = `healthy` are the labelled healthy cells.
   Only needed with `--use_healthy_annotation 1` (the default).

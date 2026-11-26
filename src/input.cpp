@@ -186,9 +186,15 @@ void load_CSV(std::string& base_name,
         alt_counts.push_back(alt_counts_variant);
     }
     file_variants.close();
-    if (ref_counts.empty()) throw std::runtime_error("Variants file " + variants_path + " has no variants");
-    n_cells = (int)ref_counts[0].size();
+    // A variants file with only the header row (the cell names) has no loci: CNA-only inference
+    n_cells = ref_counts.empty() ? (int)cell_names.size() : (int)ref_counts[0].size();
     n_loci = (int)ref_counts.size();
+    if (n_cells == 0)
+        throw std::runtime_error("Variants file " + variants_path + " has no cells: it needs at least a header row "
+                                 "with the cell names (and no variant rows for a CNA-only run)");
+    if (n_loci == 0)
+        std::cout << "No variant loci in " << variants_path << ": running CNA-only inference (SNV moves disabled)."
+                  << std::endl;
     for (int i=0;i<n_loci;i++){
         if (ref_counts[i].size()!=n_cells){
             throw std::runtime_error("Not all loci had the same number of cells in the variants file: the first locus has "+
@@ -231,7 +237,7 @@ void load_CSV(std::string& base_name,
     }
 
     // The variants file must say to which region (amplicon or gene) each variant belongs
-    if ((int)data.locus_to_region.size()==0){
+    if ((int)data.locus_to_region.size()==0 && n_loci>0){
         throw std::invalid_argument("Missing region information for variants: the variants file must contain a column indicating to which region (amplicon or gene) each variant belongs.");
     }
     // Map region index to loci index
@@ -381,6 +387,11 @@ void load_CSV(std::string& base_name,
 
         int n_strands = (int)data.root_strands_regions.size();
         if (n_strands == 0) throw std::runtime_error("Haplotype file " + haplotype_filename + " defines zero strands.");
+        if (n_loci == 0) {
+            // empty loci rows parse to the wrong number of strands: one empty vector per strand
+            data.root_strands_loci_ref.assign(n_strands, {});
+            data.root_strands_loci_alt.assign(n_strands, {});
+        }
         if ((int)data.root_strands_loci_ref.size() != n_strands || (int)data.root_strands_loci_alt.size() != n_strands) {
             throw std::runtime_error("Haplotype file " + haplotype_filename
                 + ": root_strands_regions, root_strands_loci_ref and root_strands_loci_alt must all define the same number of strands.");

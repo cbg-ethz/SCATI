@@ -175,6 +175,10 @@ int main(int argc, char* argv[]) {
           apply_region_reference(parameters.region_reference_path);
           parameters.region_reference_active = true; // cleared by the root refit at the end of burn-in
       }
+      // A CNA-only run (no variant loci) accepts an empty regions file, but the CNA moves need a region
+      if (n_regions == 0)
+          throw std::runtime_error("The regions file has no regions: at least one region is needed to infer "
+                                   "copy numbers.");
 
       // Created after loading, so a failed load leaves no output directory
       if (!std::filesystem::exists(output)) {
